@@ -33,7 +33,7 @@ Prat3DB = {
 		},
 		["Prat_Alias"] = {
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_UrlCopy"] = {
 		},
 		["Prat_Sounds"] = {
 		},
@@ -41,13 +41,13 @@ Prat3DB = {
 		},
 		["Prat_History"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_PopupMessage"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_Timestamps"] = {
+		["Prat_ChatLog"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -55,7 +55,7 @@ Prat3DB = {
 		},
 		["Prat_ServerNames"] = {
 		},
-		["Prat_UrlCopy"] = {
+		["Prat_ChannelNames"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -64,13 +64,13 @@ Prat3DB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["PopupMessage"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 	},

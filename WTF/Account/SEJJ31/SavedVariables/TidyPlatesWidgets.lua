@@ -1,20 +1,31 @@
 
 TidyPlatesWidgetData = {
-	["UnitGuild"] = {
-		["Rizing"] = "Grind",
-		["Jamsham"] = "Uda Uda",
-		["Clad"] = "Uda Uda",
-		["Majika"] = "Uda Uda",
+	["UnitClass"] = {
+		["Tighearnsch"] = "DRUID",
+		["Flipngrim"] = "PRIEST",
+		["Majika"] = "MAGE",
+		["Rizing"] = "HUNTER",
+		["Cripplez"] = "DRUID",
+		["Hyniel"] = "PRIEST",
+		["Jamsham"] = "SHAMAN",
+		["Vivesca"] = "DEATHKNIGHT",
+		["Clad"] = "SHAMAN",
+		["Bumbypwns"] = "SHAMAN",
+	},
+	["CachedAuraDurations"] = {
 	},
 	["UnitDescriptions"] = {
 		["Vaultkeeper Shifen"] = "Banker",
 	},
-	["CachedAuraDurations"] = {
-	},
-	["UnitClass"] = {
-		["Rizing"] = "HUNTER",
-		["Jamsham"] = "SHAMAN",
-		["Clad"] = "SHAMAN",
-		["Majika"] = "MAGE",
+	["UnitGuild"] = {
+		["Hyniel"] = "toon raiders",
+		["Flipngrim"] = "Stealth Assasins",
+		["Clad"] = "Uda Uda",
+		["Rizing"] = "Grind",
+		["Jamsham"] = "Uda Uda",
+		["Cripplez"] = "The Evil Within",
+		["Majika"] = "Uda Uda",
+		["Vivesca"] = "The Hive",
+		["Bumbypwns"] = "Passive Aggressive",
 	},
 }

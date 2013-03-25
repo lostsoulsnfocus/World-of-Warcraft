@@ -57,44 +57,23 @@ DBM_SavedOptions = {
 	["ShowFakedRaidWarnings"] = false,
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
-	["LastRevision"] = 8892,
+	["ShowEngageMessage"] = true,
 	["HPFrameMaxEntries"] = 5,
-	["WarningColors"] = {
-		{
-			["r"] = 0.41,
-			["g"] = 0.8,
-			["b"] = 0.94,
-		}, -- [1]
-		{
-			["r"] = 0.95,
-			["g"] = 0.95,
-			["b"] = 0,
-		}, -- [2]
-		{
-			["r"] = 1,
-			["g"] = 0.5,
-			["b"] = 0,
-		}, -- [3]
-		{
-			["r"] = 1,
-			["g"] = 0.1,
-			["b"] = 0.1,
-		}, -- [4]
-	},
+	["ShowRecoveryMessage"] = true,
 	["BlockVersionUpdateNotice"] = false,
 	["RangeFramePoint"] = "CENTER",
-	["DontShowPTCountdownText"] = false,
+	["AutoRespond"] = true,
 	["DontShowPT"] = true,
 	["UseMasterVolume"] = true,
-	["DontShowInfoFrame"] = false,
-	["DontSendBossWhispers"] = false,
+	["ShowSpecialWarnings"] = true,
+	["RangeFrameFrames"] = "radar",
 	["ShowPizzaMessage"] = true,
 	["AdvancedAutologBosses"] = false,
 	["ShowLHFrame"] = true,
-	["DontShowBossAnnounces"] = false,
+	["RangeFrameSound2"] = "none",
 	["ArrowPosY"] = -150,
 	["Enabled"] = true,
-	["HealthFrameLocked"] = false,
+	["RangeFrameLocked"] = false,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
@@ -103,17 +82,38 @@ DBM_SavedOptions = {
 	["DisableCinematics"] = false,
 	["MovieFilters"] = {
 	},
-	["RangeFrameLocked"] = false,
+	["HealthFrameLocked"] = false,
 	["ShowWipeMessage"] = true,
-	["RangeFrameSound2"] = "none",
-	["RangeFrameFrames"] = "radar",
-	["ShowSpecialWarnings"] = true,
+	["DontShowBossAnnounces"] = false,
+	["DontSendBossWhispers"] = false,
+	["DontShowInfoFrame"] = false,
 	["AlwaysShowHealthFrame"] = false,
 	["HPFrameX"] = -50,
-	["AutoRespond"] = true,
+	["DontShowPTCountdownText"] = false,
 	["SpamBlockBossWhispers"] = false,
-	["ShowRecoveryMessage"] = true,
-	["ShowEngageMessage"] = true,
+	["WarningColors"] = {
+		{
+			["b"] = 0.94,
+			["g"] = 0.8,
+			["r"] = 0.41,
+		}, -- [1]
+		{
+			["b"] = 0,
+			["g"] = 0.95,
+			["r"] = 0.95,
+		}, -- [2]
+		{
+			["b"] = 0,
+			["g"] = 0.5,
+			["r"] = 1,
+		}, -- [3]
+		{
+			["b"] = 0.1,
+			["g"] = 0.1,
+			["r"] = 1,
+		}, -- [4]
+	},
+	["LastRevision"] = 8892,
 }
 DBT_SavedOptions = {
 	["DBM"] = {

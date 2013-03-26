@@ -6461,7 +6461,11 @@ function WeakAuras.CreateFrame()
     model_x = model_x or self.data.model_x;
     model_y = model_y or self.data.model_y;
     
-    self.model:SetModel(model_path);
+	if tonumber(model_path) then
+		self.model:SetDisplayInfo(tonumber(model_path))
+	else
+		self.model:SetModel(model_path);
+	end
     self.model:SetPosition(model_z,model_x, model_y);
     self.model:SetFacing(rad(self.data.rotation));
     if(self.data.controlledChildren) then
@@ -6490,7 +6494,11 @@ function WeakAuras.CreateFrame()
   
   function modelPick.Open(self, data)
     self.data = data;
-    self.model:SetModel(data.model_path);
+	if tonumber(data.model_path) then
+		model:SetDisplayInfo(tonumber(data.model_path))
+	else
+		model:SetModel(data.model_path);
+	end
     self.model:SetPosition(data.model_z, data.model_x, data.model_y);
     self.model:SetFacing(rad(data.rotation));
     
@@ -7832,6 +7840,11 @@ tXmdmY4fDE5]];
     end
   end
   
+  frame:SetClampedToScreen(true);
+  local w,h = frame:GetSize();
+  local left,right,top,bottom = w/2,-w/2,0,h-25
+  frame:SetClampRectInsets(left,right,top,bottom);
+  
   return frame;
 end
 
@@ -8302,7 +8315,7 @@ function WeakAuras.ShowCloneDialog(data)
       hideOnEscape = true,
       whileDead = true,
       timeout = 0,
-      preferredIndex = 3
+      preferredindex = STATICPOPUP_NUMDIALOGS
     };
     
     StaticPopup_Show("WEAKAURAS_CLONE_OPTION_ENABLED");
@@ -8332,7 +8345,7 @@ function WeakAuras.ShowSpellIDDialog(trigger, id)
       hideOnEscape = true,
       whileDead = true,
       timeout = 0,
-      preferredIndex = 3
+      preferredindex = STATICPOPUP_NUMDIALOGS
     };
     
     StaticPopup_Show("WEAKAURAS_SPELLID_CHECK");

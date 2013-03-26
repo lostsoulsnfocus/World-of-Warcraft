@@ -1,7 +1,7 @@
-﻿## Interface: 50001
+﻿## Interface: 50200
 ## Title: WeakAuras Tutorials
 ## Author: Mirrored
-## Version: 1.4.7.7
+## Version: 1.4.7.9
 ## Notes: Tutorials for WeakAuras
 ## Notes-esES: Tutoriales para WeakAuras
 ## Notes-deDE: Anleitungen für WeakAuras
@@ -14,7 +14,7 @@
 ## DefaultState: Enabled
 ## LoadOnDemand: 1
 ## Dependencies: WeakAuras, WeakAurasOptions
-## X-Curse-Packaged-Version: 1.4.7.7
+## X-Curse-Packaged-Version: 1.4.7.9
 ## X-Curse-Project-Name: WeakAuras
 ## X-Curse-Project-ID: weakauras
 ## X-Curse-Repository-ID: wow/weakauras/mainline

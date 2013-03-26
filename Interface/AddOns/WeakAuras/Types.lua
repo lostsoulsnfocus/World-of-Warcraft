@@ -420,7 +420,17 @@ WeakAuras.texture_types = {
     ["Textures\\SpellActivationOverlays\\Molten_Core"] = "Molten Core",
     ["Textures\\SpellActivationOverlays\\Necropolis"] = "Necropolis",
     ["Textures\\SpellActivationOverlays\\Serendipity"] = "Serendipity",
-    ["Textures\\SpellActivationOverlays\\Shooting_Stars"] = "Shooting Stars"
+    ["Textures\\SpellActivationOverlays\\Shooting_Stars"] = "Shooting Stars",
+    ["Textures\\SpellActivationOverlays\\Dark_Tiger"] = "Dark Tiger",
+    ["Textures\\SpellActivationOverlays\\Daybreak"] = "Daybreak",
+    ["Textures\\SpellActivationOverlays\\Monk_Ox"] = "Monk Ox",
+    ["Textures\\SpellActivationOverlays\\Monk_Serpent"] = "Monk Serpent",
+    ["Textures\\SpellActivationOverlays\\Monk_Tiger"] = "Monk Tiger",
+    ["Textures\\SpellActivationOverlays\\Shadow_of_Death"] = "Shadow of Death",
+    ["Textures\\SpellActivationOverlays\\Surge_of_Darkness"] = "Surge of Darkness",
+    ["Textures\\SpellActivationOverlays\\Ultimatum"] = "Ultimatum",
+    ["Textures\\SpellActivationOverlays\\White_Tiger"] = "White Tiger",
+    ["Textures\\SpellActivationOverlays\\spellActivationOverlay_0"] = "Spell Activation Overlay 0"
   },
   ["Icons"] = {
     ["Spells\\Agility_128"] = "Paw",
@@ -981,7 +991,7 @@ WeakAuras.anim_finish_preset_types = {
   bounceDecay = L["Bounce"]
 };
 WeakAuras.chat_message_types = {
-  CHAT_MSG_BATTLEGROUND = L["Battleground"],
+  CHAT_MSG_INSTANCE_CHAT = L["Instance"],
   CHAT_MSG_BG_SYSTEM_NEUTRAL = L["BG-System Neutral"],
   CHAT_MSG_BG_SYSTEM_ALLIANCE = L["BG-System Alliance"],
   CHAT_MSG_BG_SYSTEM_HORDE = L["BG-System Horde"],
@@ -1011,7 +1021,7 @@ WeakAuras.send_chat_message_types = {
   RAID = L["Raid"],
   SMARTRAID = L["BG>Raid>Party>Say"],
   RAID_WARNING = L["Raid Warning"],
-  BATTLEGROUND = L["Battleground"],
+  INSTANCE_CHAT = L["Instance"],
   COMBAT = L["Blizzard Combat Text"],
   PRINT = L["Chat Frame"]
 };
@@ -1116,4 +1126,10 @@ WeakAuras.duration_types = {
 };
 WeakAuras.duration_types_no_choice = {
   seconds = L["Seconds"]
+};
+WeakAuras.gtfo_types = {
+	[1] = L["High Damage"],
+	[2] = L["Low Damage"],
+	[3] = L["Fail Alert"],
+	[4] = L["Friendly Fire"]
 };

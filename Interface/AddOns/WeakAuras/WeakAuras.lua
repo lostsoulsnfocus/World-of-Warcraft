@@ -214,6 +214,8 @@ function WeakAuras.validate(input, default)
   end
 end
 
+
+
 function WeakAuras.RegisterRegionType(name, createFunction, modifyFunction, default)
   if not(name) then
   error("Improper arguments to WeakAuras.RegisterRegionType - name is not defined");
@@ -1582,6 +1584,10 @@ loadedFrame:SetScript("OnEvent", function(self, event, addon)
       WeakAuras.RegisterDisplay = WeakAuras.AddFromAddon;
       
       WeakAuras.ResolveCollisions(function() registeredFromAddons = true; end);
+
+      WeakAuras.FixGroupChildrenOrder();
+      
+      WeakAuras.RemoveGTFO();
       
       WeakAuras.Resume();
     end
@@ -2859,7 +2865,7 @@ function WeakAuras.ResolveCollisions(onFinished)
     whileDead = true,
     showAlert = true,
     timeout = 0,
-    preferredIndex = 3
+    preferredindex = STATICPOPUP_NUMDIALOGS
   };
   
   local popup = StaticPopup_Show("WEAKAURAS_RESOLVE_COLLISIONS");
@@ -3804,7 +3810,7 @@ function WeakAuras.PerformActions(data, type)
     end
     elseif(actions.message_type == "SMARTRAID") then
     if UnitInBattleground("player") then
-      SendChatMessage(actions.message, "BATTLEGROUND")
+      SendChatMessage(actions.message, "INSTANCE_CHAT")
     elseif UnitInRaid("player") then
       SendChatMessage(actions.message, "RAID")
     elseif UnitInParty("player") then
@@ -5015,4 +5021,42 @@ function WeakAuras.RegisterItemCountWatch()
     timer:ScheduleTimer(WeakAuras.ScanEvents, 0.5, "ITEM_COUNT_UPDATE");
   end);
   end
+end
+
+function WeakAuras.FixGroupChildrenOrder()
+  for id, data in pairs(db.displays) do
+        if(data.controlledChildren) then
+      local lowestRegion = WeakAuras.regions[data.controlledChildren[1]] and WeakAuras.regions[data.controlledChildren[1]].region;
+      if(lowestRegion) then
+        local frameLevel = lowestRegion:GetFrameLevel();
+        for i=2,#data.controlledChildren do
+          local childRegion = WeakAuras.regions[data.controlledChildren[i]] and WeakAuras.regions[data.controlledChildren[i]].region;
+          if(childRegion) then
+            frameLevel = frameLevel + 1;
+            childRegion:SetFrameLevel(frameLevel);
+          end
+        end
+      end
+    end
+  end
+end
+
+-- Remove GTFO options if GTFO isn't enabled and there are no saved GTFO auras
+function WeakAuras.RemoveGTFO()
+	if not (WeakAuras.loaded_events["GTFO_DISPLAY"] or (GTFO and GTFO.VersionNumber and tonumber(GTFO.VersionNumber) >= 42000)) then
+		for id, data in pairs(db.displays) do
+			if (data.trigger.event == "GTFO") then
+				return;
+			end
+			if (data.numTriggers > 1) then
+				for i, trigger in pairs(data.additional_triggers) do
+					if (trigger.trigger.event == "GTFO") then
+						return;
+					end
+				end
+			end
+		end
+		
+		WeakAuras.event_types["GTFO"] = nil;
+	end
 end

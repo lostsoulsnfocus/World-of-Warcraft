@@ -2,6 +2,7 @@
 -- registrations for media from the client itself belongs in LibSharedMedia-3.0
 
 local LSM = LibStub("LibSharedMedia-3.0")
+local koKR, ruRU, zhCN, zhTW, western = LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_ruRU, LSM.LOCALE_BIT_zhCN, LSM.LOCALE_BIT_zhTW, LSM.LOCALE_BIT_western
 
 -- -----
 -- BACKGROUND
@@ -21,34 +22,24 @@ LSM:Register("border", "SeerahScalloped", [[Interface\Addons\SharedMedia\border\
 -- -----
 --   FONT
 -- -----
--- all fonts have been removed from SharedMedia for the moment
--- fonts using a license that allows redistribution will most likely be readded later
 LSM:Register("font", "Adventure",					[[Interface\Addons\SharedMedia\fonts\Adventure.ttf]])
---~ LSM:Register("font", "ABF",							[[Interface\Addons\SharedMedia\fonts\ABF.ttf]])
-LSM:Register("font", "Bazooka",						[[Interface\Addons\SharedMedia\fonts\Bazooka.ttf]])
---~ LSM:Register("font", "BigNoodleTitling",			[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling.ttf]])
---~ LSM:Register("font", "BigNoodleTitling-Oblique",	[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling-Oblique.ttf]])
-LSM:Register("font", "Black Chancery",				[[Interface\Addons\SharedMedia\fonts\BlackChancery.ttf]])
---~ LSM:Register("font", "Diablo",						[[Interface\Addons\SharedMedia\fonts\Avqest.ttf]])
---~ LSM:Register("font", "Emblem",						[[Interface\Addons\SharedMedia\fonts\Emblem.ttf]])
-LSM:Register("font", "Enigmatic",						[[Interface\Addons\SharedMedia\fonts\Enigma__2.ttf]])
-LSM:Register("font", "Movie Poster",				[[Interface\Addons\SharedMedia\fonts\SFMoviePoster-Bold.ttf]])
---~ LSM:Register("font", "Porky's",						[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
---~ LSM:Register("font", "RM Midserif",					[[Interface\Addons\SharedMedia\fonts\rm_midse.ttf]])
---~ LSM:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
---~ LSM:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
---~ LSM:Register("font", "Ultima Campagnoli",			[[Interface\Addons\SharedMedia\fonts\Ultima_Campagnoli.ttf]])
-LSM:Register("font", "Vera Serif",					[[Interface\Addons\SharedMedia\fonts\VeraSe.ttf]])
-LSM:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\YELLOWJACKET.ttf]])
-LSM:Register("font", "DorisPP",				[[Interface\Addons\SharedMedia\fonts\DORISPP.ttf]])
-LSM:Register("font", "Fitzgerald",				[[Interface\Addons\SharedMedia\fonts\Fitzgerald.ttf]])
-LSM:Register("font", "Gentium",				[[Interface\Addons\SharedMedia\fonts\Gentium.ttf]])
-LSM:Register("font", "Hooked Up",				[[Interface\Addons\SharedMedia\fonts\HookedUp.ttf]])
-LSM:Register("font", "Liberation Sans",				[[Interface\Addons\SharedMedia\fonts\LiberationSans.ttf]])
 LSM:Register("font", "Atarian System",				[[Interface\Addons\SharedMedia\fonts\SFAtarianSystem.ttf]])
-LSM:Register("font", "Covington",				[[Interface\Addons\SharedMedia\fonts\SFCovington.ttf]])
+LSM:Register("font", "Bazooka",						[[Interface\Addons\SharedMedia\fonts\Bazooka.ttf]])
+LSM:Register("font", "Black Chancery",				[[Interface\Addons\SharedMedia\fonts\BlackChancery.ttf]])
+LSM:Register("font", "Celestia Redux",				[[Interface\Addons\SharedMedia\fonts\CelestiaMediumRedux1.55.ttf]])
+LSM:Register("font", "Covington",					[[Interface\Addons\SharedMedia\fonts\SFCovington.ttf]])
+LSM:Register("font", "DorisPP",						[[Interface\Addons\SharedMedia\fonts\DORISPP.ttf]])
+LSM:Register("font", "Enigmatic",					[[Interface\Addons\SharedMedia\fonts\Enigma__2.ttf]])
+LSM:Register("font", "Fitzgerald",					[[Interface\Addons\SharedMedia\fonts\Fitzgerald.ttf]])
+LSM:Register("font", "Gentium",						[[Interface\Addons\SharedMedia\fonts\Gentium.ttf]])
+LSM:Register("font", "Hooked Up",					[[Interface\Addons\SharedMedia\fonts\HookedUp.ttf]])
+LSM:Register("font", "Liberation Sans",				[[Interface\Addons\SharedMedia\fonts\LiberationSans.ttf]])
+LSM:Register("font", "Movie Poster",				[[Interface\Addons\SharedMedia\fonts\SFMoviePoster-Bold.ttf]])
+LSM:Register("font", "swf!t",						[[Interface\Addons\SharedMedia\fonts\swfit.ttf]])
+LSM:Register("font", "Vera Serif",					[[Interface\Addons\SharedMedia\fonts\VeraSe.ttf]])
+LSM:Register("font", "WenQuanYi Zen Hei",			[[Interface\Addons\SharedMedia\fonts\wqy-zenhei.ttf]],				koKR + ruRU + zhCN + zhTW + western)
 LSM:Register("font", "Wonder Comic",				[[Interface\Addons\SharedMedia\fonts\SFWonderComic.ttf]])
-LSM:Register("font", "swf!t",				[[Interface\Addons\SharedMedia\fonts\swfit.ttf]])
+LSM:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\YELLOWJACKET.ttf]])
 
 -- -----
 --   SOUND

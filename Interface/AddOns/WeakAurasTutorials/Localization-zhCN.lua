@@ -40,15 +40,15 @@ L["Display Options 2/4 Text"] = "这里的配置, 只在 你应用了基于 光�
 L["Display Options: 4/4"] = "图示配置: 4/4"
 L["Display Options 4/4 Text"] = "最后, 一个新的显示,  |cFFFFFFFF模型l|r , 允许你使用任意一个游戏文件中包含的3D 模型."
 -- L["Dynamic Group Options: 2/4"] = ""
-L["Dynamic Group Options 2/4 Text"] = [=[动太群组最大的改进是提供了一个新的 延升 选项.
-选择 \"圆形布局\" 来看看效果.]=] -- Needs review
+L["Dynamic Group Options 2/4 Text"] = [=[动态群组最大的改进是提供了一个新的 延伸 选项.
+选择 \"圆形布局\" 来看看效果.]=]
 -- L["Dynamic Group Options: 3/4"] = ""
 -- L["Dynamic Group Options 3/4 Text"] = ""
 -- L["Dynamic Group Options: 4/4"] = ""
 -- L["Dynamic Group Options 4/4 Text"] = ""
 -- L["Finished"] = ""
 -- L["Full-scan Auras: 2/10"] = ""
--- L["Full-scan Auras 2/10 Text"] = ""
+L["Full-scan Auras 2/10 Text"] = "首先，启用完全扫描功能" -- Needs review
 -- L["Full-scan Auras: 3/10"] = ""
 -- L["Full-scan Auras 3/10 Text"] = ""
 -- L["Full-scan Auras: 4/10"] = ""

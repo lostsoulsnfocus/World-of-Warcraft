@@ -895,7 +895,7 @@ WeakAuras.event_prototypes = {
         name = "power",
         display = L["Chi Power"],
         type = "number",
-        init = "UnitPower(unit, SPELL_POWER_LIGHT_FORCE)"
+        init = "UnitPower(unit, SPELL_POWER_CHI)"
       },
       {
         hidden = true,
@@ -903,10 +903,10 @@ WeakAuras.event_prototypes = {
       }
     },
     durationFunc = function(trigger)
-      return UnitPower(trigger.unit, SPELL_POWER_LIGHT_FORCE), math.max(1, UnitPowerMax(trigger.unit, SPELL_POWER_LIGHT_FORCE)), true;
+      return UnitPower(trigger.unit, SPELL_POWER_CHI), math.max(1, UnitPowerMax(trigger.unit, SPELL_POWER_CHI)), true;
     end,
     stacksFunc = function(trigger)
-      return UnitPower(trigger.unit, SPELL_POWER_LIGHT_FORCE);
+      return UnitPower(trigger.unit, SPELL_POWER_CHI);
     end,
     automatic = true
   },
@@ -1611,6 +1611,22 @@ WeakAuras.event_prototypes = {
     end,
     hasItemID = true
   },
+	["GTFO"] = {
+		type = "event",
+		events = {
+	  	"GTFO_DISPLAY"
+		},
+		name = L["GTFO Alert"],
+		args = {
+			{
+		  	name = "alertType",
+		  	display = "Alert Type",
+		  	type = "select",
+		  	init = "arg",
+		  	values = "gtfo_types"
+		  },
+	  },
+	},
   ["Global Cooldown"] = {
     type = "status",
     events = {
@@ -2098,8 +2114,8 @@ WeakAuras.event_prototypes = {
   ["Chat Message"] = {
     type = "event",
     events = {
-      "CHAT_MSG_BATTLEGROUND",
-      "CHAT_MSG_BATTLEGROUND_LEADER",
+      "CHAT_MSG_INSTANCE_CHAT",
+      "CHAT_MSG_INSTANCE_CHAT_LEADER",
       "CHAT_MSG_BG_SYSTEM_ALLIANCE",
       "CHAT_MSG_BG_SYSTEM_HORDE",
       "CHAT_MSG_BG_SYSTEM_NEUTRAL",

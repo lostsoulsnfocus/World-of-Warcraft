@@ -30,6 +30,7 @@ Free to use for non-commercial purposes
 
 Free for personal use
  * Collegiate
+ * SF Diego Sans
 
 Freeware
  * Arm Wrestler

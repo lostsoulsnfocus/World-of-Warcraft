@@ -333,16 +333,7 @@ PitBull4DB = {
 		},
 		["HideBlizzard"] = {
 		},
-		["ReputationBar"] = {
-			["profiles"] = {
-				["Default"] = {
-					["layouts"] = {
-						["Normal"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-			},
+		["RestIcon"] = {
 		},
 		["CombatIcon"] = {
 			["profiles"] = {
@@ -460,7 +451,16 @@ PitBull4DB = {
 		},
 		["Highlight"] = {
 		},
-		["RestIcon"] = {
+		["ReputationBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["layouts"] = {
+						["Normal"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
 		},
 	},
 	["global"] = {
@@ -520,11 +520,11 @@ PitBull4DB = {
 					["size_x"] = 0.8500000238418579,
 				},
 				["target"] = {
-					["size_x"] = 1.049999952316284,
+					["position_x"] = 276.5423583984375,
 					["size_y"] = 1.049999952316284,
-					["position_y"] = -336.9587860107422,
+					["position_y"] = -340.3040008544922,
+					["size_x"] = 1.049999952316284,
 					["horizontal_mirror"] = true,
-					["position_x"] = 271.8251953125,
 				},
 				["pet"] = {
 					["enabled"] = false,

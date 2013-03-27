@@ -113,12 +113,12 @@ Bartender4DB = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
 					["fadeout"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
 						["x"] = 339.4620361328125,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 			},
 		},

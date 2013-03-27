@@ -137,6 +137,12 @@ ChatterDB = {
 		["EditBox"] = {
 		},
 		["ChatFont"] = {
+			["profiles"] = {
+				["Default"] = {
+					["font"] = "Vixar",
+					["fontsize"] = 11,
+				},
+			},
 		},
 		["ChatTabs"] = {
 		},
@@ -165,6 +171,13 @@ ChatterDB = {
 						"/tt", -- [13]
 						"/coolline", -- [14]
 						"/tiptac", -- [15]
+						"/cw Soulhunteh no thx", -- [16]
+						"/kgpanels config", -- [17]
+						"/tiptac", -- [18]
+						"/coolline", -- [19]
+						"/quartz", -- [20]
+						"/weakauras", -- [21]
+						"/tiptac", -- [22]
 					},
 				},
 			},
@@ -179,6 +192,10 @@ ChatterDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["modules"] = {
+				["Tiny Chat"] = true,
+				["Automatic Whisper Windows"] = true,
+			},
 			["welcomeMessaged"] = true,
 		},
 	},

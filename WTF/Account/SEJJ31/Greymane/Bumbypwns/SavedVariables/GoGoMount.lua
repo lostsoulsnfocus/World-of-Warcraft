@@ -25,6 +25,13 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 903,
 		},
+		["Vale of Eternal Blossoms"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 811,
+		},
 	},
 	["DisableMountNotice"] = false,
 	["DisableWaterFlight"] = true,

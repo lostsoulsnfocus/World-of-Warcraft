@@ -4,6 +4,15 @@ GoGo_Prefs = {
 	["GlobalPrefMount"] = false,
 	["DruidFlightForm"] = false,
 	["GlobalExclude"] = {
+		6653, -- [1]
+		32245, -- [2]
+		32244, -- [3]
+		32243, -- [4]
+		32296, -- [5]
+		23251, -- [6]
+		32246, -- [7]
+		32297, -- [8]
+		32295, -- [9]
 	},
 	["UnknownMounts"] = {
 	},

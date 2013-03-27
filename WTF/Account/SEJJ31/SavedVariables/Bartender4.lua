@@ -17,22 +17,26 @@ Bartender4DB = {
 							["padding"] = 6,
 						}, -- [1]
 						{
-							["enabled"] = false,
+							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
+								["y"] = 102.5000078876815,
+								["x"] = -200.1633792306348,
+								["point"] = "BOTTOM",
+								["scale"] = 0.9000000357627869,
 							},
+							["padding"] = 3,
 						}, -- [2]
 						{
-							["enabled"] = false,
+							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
+								["y"] = 102.7499852776509,
+								["x"] = 5.041702671180246,
+								["point"] = "BOTTOM",
+								["scale"] = 0.9000000357627869,
 							},
+							["padding"] = 3,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -53,12 +57,13 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
-							["enabled"] = false,
+							["buttons"] = 9,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.49990844726563,
-								["x"] = -231.5001831054688,
+								["y"] = -208.3057031082244,
+								["x"] = -159.8436732163536,
 								["point"] = "CENTER",
+								["scale"] = 0.9500000476837158,
 							},
 						}, -- [6]
 						{
@@ -89,6 +94,7 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 32.40000353455548,
 						["x"] = -124.799841070173,
@@ -106,10 +112,11 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["fadeout"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
-						["x"] = 465.4776611328125,
+						["x"] = 339.4620361328125,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -144,9 +151,9 @@ Bartender4DB = {
 				["Bumbypwns - Greymane"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 172.0666656494141,
-						["x"] = 341.6888122558594,
-						["point"] = "BOTTOMLEFT",
+						["y"] = 234.9140472412109,
+						["x"] = -455.666015625,
+						["point"] = "BOTTOMRIGHT",
 					},
 				},
 			},

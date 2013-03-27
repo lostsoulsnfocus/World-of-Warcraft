@@ -14,7 +14,7 @@ CoolLineCharDB = {
 	["block"] = {
 		["Hearthstone"] = true,
 	},
-	["iconplus"] = 6,
+	["iconplus"] = 2,
 	["spellcolor"] = {
 		["a"] = 1,
 		["r"] = 0.8,
@@ -48,5 +48,5 @@ CoolLineCharDB = {
 		["g"] = 1,
 		["b"] = 1,
 	},
-	["statusbar"] = "Steel",
+	["statusbar"] = "Flat",
 }

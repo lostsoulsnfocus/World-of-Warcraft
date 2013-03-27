@@ -10,7 +10,7 @@ Frame: DBMMinimapButton
 FrameLevel: 8
 Anchor: TOPRIGHT
 X: -151
-Y: -142
+Y: -146
 W: 32
 H: 32
 Frame: Quartz3CastBarPlayer
@@ -76,10 +76,3 @@ X: 0
 Y: 0
 W: 648
 H: 420
-Frame: PitBull4_Frames_target
-FrameLevel: 1
-Anchor: BOTTOM
-X: 277
-Y: 166
-W: 241
-H: 68

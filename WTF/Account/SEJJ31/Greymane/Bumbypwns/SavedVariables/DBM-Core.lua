@@ -57,23 +57,44 @@ DBM_SavedOptions = {
 	["ShowFakedRaidWarnings"] = false,
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
-	["ShowEngageMessage"] = true,
+	["LastRevision"] = 8892,
 	["HPFrameMaxEntries"] = 5,
-	["ShowRecoveryMessage"] = true,
+	["WarningColors"] = {
+		{
+			["r"] = 0.41,
+			["g"] = 0.8,
+			["b"] = 0.94,
+		}, -- [1]
+		{
+			["r"] = 0.95,
+			["g"] = 0.95,
+			["b"] = 0,
+		}, -- [2]
+		{
+			["r"] = 1,
+			["g"] = 0.5,
+			["b"] = 0,
+		}, -- [3]
+		{
+			["r"] = 1,
+			["g"] = 0.1,
+			["b"] = 0.1,
+		}, -- [4]
+	},
 	["BlockVersionUpdateNotice"] = false,
 	["RangeFramePoint"] = "CENTER",
-	["AutoRespond"] = true,
+	["DontShowPTCountdownText"] = false,
 	["DontShowPT"] = true,
 	["UseMasterVolume"] = true,
-	["ShowSpecialWarnings"] = true,
-	["RangeFrameFrames"] = "radar",
+	["DontShowInfoFrame"] = false,
+	["DontSendBossWhispers"] = false,
 	["ShowPizzaMessage"] = true,
 	["AdvancedAutologBosses"] = false,
 	["ShowLHFrame"] = true,
-	["RangeFrameSound2"] = "none",
+	["DontShowBossAnnounces"] = false,
 	["ArrowPosY"] = -150,
 	["Enabled"] = true,
-	["RangeFrameLocked"] = false,
+	["HealthFrameLocked"] = false,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
@@ -82,38 +103,17 @@ DBM_SavedOptions = {
 	["DisableCinematics"] = false,
 	["MovieFilters"] = {
 	},
-	["HealthFrameLocked"] = false,
+	["RangeFrameLocked"] = false,
 	["ShowWipeMessage"] = true,
-	["DontShowBossAnnounces"] = false,
-	["DontSendBossWhispers"] = false,
-	["DontShowInfoFrame"] = false,
+	["RangeFrameSound2"] = "none",
+	["RangeFrameFrames"] = "radar",
+	["ShowSpecialWarnings"] = true,
 	["AlwaysShowHealthFrame"] = false,
 	["HPFrameX"] = -50,
-	["DontShowPTCountdownText"] = false,
+	["AutoRespond"] = true,
 	["SpamBlockBossWhispers"] = false,
-	["WarningColors"] = {
-		{
-			["b"] = 0.94,
-			["g"] = 0.8,
-			["r"] = 0.41,
-		}, -- [1]
-		{
-			["b"] = 0,
-			["g"] = 0.95,
-			["r"] = 0.95,
-		}, -- [2]
-		{
-			["b"] = 0,
-			["g"] = 0.5,
-			["r"] = 1,
-		}, -- [3]
-		{
-			["b"] = 0.1,
-			["g"] = 0.1,
-			["r"] = 1,
-		}, -- [4]
-	},
-	["LastRevision"] = 8892,
+	["ShowRecoveryMessage"] = true,
+	["ShowEngageMessage"] = true,
 }
 DBT_SavedOptions = {
 	["DBM"] = {

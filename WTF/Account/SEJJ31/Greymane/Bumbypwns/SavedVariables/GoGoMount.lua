@@ -34,18 +34,18 @@ GoGo_Prefs = {
 		},
 	},
 	["DisableMountNotice"] = false,
-	["DisableWaterFlight"] = true,
-	["ExtraPassengerMounts"] = {
-	},
+	["DruidDisableInCombat"] = false,
+	["PaladinUseCrusaderAura"] = false,
 	["DisableUpdateNotice"] = false,
-	["autodismount"] = true,
+	["RemoveBuffs"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["RemoveBuffs"] = true,
-	["PaladinUseCrusaderAura"] = false,
-	["DruidDisableInCombat"] = false,
+	["autodismount"] = true,
+	["ExtraPassengerMounts"] = {
+	},
+	["DisableWaterFlight"] = true,
 }
 GoGo_DebugLog = {
 }

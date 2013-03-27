@@ -94,14 +94,14 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
-					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 32.40000353455548,
 						["x"] = -124.799841070173,
 						["point"] = "BOTTOM",
 						["scale"] = 0.800000011920929,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
 			},
 		},
@@ -112,11 +112,23 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
-					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
 						["x"] = 339.4620361328125,
 						["point"] = "BOTTOM",
+					},
+					["fadeout"] = true,
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Bumbypwns - Greymane"] = {
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
 					},
 					["version"] = 3,
 				},
@@ -131,18 +143,6 @@ Bartender4DB = {
 						["x"] = -230.8447265625,
 						["point"] = "RIGHT",
 					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Bumbypwns - Greymane"] = {
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
 				},
 			},
 		},

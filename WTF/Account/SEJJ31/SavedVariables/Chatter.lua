@@ -108,15 +108,15 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
-						["Trade"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.7529412508010864,
-						},
 						["Say"] = {
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
+						},
+						["Trade"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
 						},
 						["Instance Leader"] = {
 							["r"] = 1,
@@ -178,38 +178,38 @@ ChatterDB = {
 			["realm"] = {
 				["Greymane"] = {
 					["history"] = {
-						"/tt", -- [1]
+						"/kgpanels config", -- [1]
 						"/tt", -- [2]
-						"/kgpanels", -- [3]
-						"/kgpanels config", -- [4]
-						"/tt", -- [5]
-						"/tt", -- [6]
-						"/coolline", -- [7]
+						"/tt", -- [3]
+						"/coolline", -- [4]
+						"/tiptac", -- [5]
+						"/cw Soulhunteh no thx", -- [6]
+						"/kgpanels config", -- [7]
 						"/tiptac", -- [8]
-						"/cw Soulhunteh no thx", -- [9]
-						"/kgpanels config", -- [10]
-						"/tiptac", -- [11]
-						"/coolline", -- [12]
-						"/quartz", -- [13]
-						"/weakauras", -- [14]
-						"/tiptac", -- [15]
-						"/g hey yo", -- [16]
-						"/g new ui is up and running", -- [17]
-						"/g now if i can find something for the damn achievement frame ", -- [18]
-						"/g hey meno", -- [19]
-						"/g yo yo yo", -- [20]
-						"/g thx", -- [21]
-						"/g oh what to do what to do with all this VP", -- [22]
-						"/g nope", -- [23]
-						"/g and im almost at cap", -- [24]
-						"/g guess ill wait and buy a piece then just give it back before it expires cause got the ring and wrists already", -- [25]
-						"/quartz", -- [26]
-						"/g YEAH GOT IT PRETTY MUCH ALL SET UP", -- [27]
-						"/g just got to config the rest of the toons but thats just a reflux thing", -- [28]
-						"/tiptac", -- [29]
-						"/omnicc", -- [30]
-						"/omnicc", -- [31]
-						"/omnicc config", -- [32]
+						"/coolline", -- [9]
+						"/quartz", -- [10]
+						"/weakauras", -- [11]
+						"/tiptac", -- [12]
+						"/g hey yo", -- [13]
+						"/g new ui is up and running", -- [14]
+						"/g now if i can find something for the damn achievement frame ", -- [15]
+						"/g hey meno", -- [16]
+						"/g yo yo yo", -- [17]
+						"/g thx", -- [18]
+						"/g oh what to do what to do with all this VP", -- [19]
+						"/g nope", -- [20]
+						"/g and im almost at cap", -- [21]
+						"/g guess ill wait and buy a piece then just give it back before it expires cause got the ring and wrists already", -- [22]
+						"/quartz", -- [23]
+						"/g YEAH GOT IT PRETTY MUCH ALL SET UP", -- [24]
+						"/g just got to config the rest of the toons but thats just a reflux thing", -- [25]
+						"/tiptac", -- [26]
+						"/omnicc", -- [27]
+						"/omnicc", -- [28]
+						"/omnicc config", -- [29]
+						"/msbt", -- [30]
+						"/g hey klob putting the final touches on the UI", -- [31]
+						"/dbm", -- [32]
 					},
 				},
 			},

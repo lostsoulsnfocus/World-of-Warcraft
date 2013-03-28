@@ -15,12 +15,12 @@ RecountPerCharDB = {
 			},
 			["Owner"] = false,
 			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 21810.933,
+			["LastAbility"] = 7223.89,
 			["Name"] = "Laureñ",
+			["UnitLockout"] = 1364441343,
 			["Pet"] = {
 				"Champ <Laureñ>", -- [1]
 			},
-			["UnitLockout"] = 1364441343,
 			["level"] = 1,
 			["Fights"] = {
 			},
@@ -39,12 +39,12 @@ RecountPerCharDB = {
 			},
 			["Owner"] = false,
 			["enClass"] = "UNGROUPED",
-			["LastAbility"] = 21810.933,
+			["LastAbility"] = 7223.89,
 			["Name"] = "Latzo",
+			["UnitLockout"] = 1364441557,
 			["Pet"] = {
 				"Tremor Totem <Latzo>", -- [1]
 			},
-			["UnitLockout"] = 1364441557,
 			["level"] = 1,
 			["Fights"] = {
 			},

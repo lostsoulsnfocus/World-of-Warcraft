@@ -9,3 +9,4 @@ XPerl_RaidFrames: disabled
 XPerl_RaidPets: disabled
 XPerl_RaidHelper: disabled
 XPerl_RaidAdmin: disabled
+TotemTimers: enabled

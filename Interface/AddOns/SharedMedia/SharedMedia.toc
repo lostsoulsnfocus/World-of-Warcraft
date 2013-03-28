@@ -1,16 +1,16 @@
 ## Interface: 50001
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
-## Version: 3.0.5-183
+## Version: 3.0.5-184
 ## Author: Elkano
 ## X-Category: Miscellaneous
-## X-Curse-Packaged-Version: r183
+## X-Curse-Packaged-Version: r184
 ## X-Curse-Project-Name: SharedMedia
 ## X-Curse-Project-ID: sharedmedia
 ## X-Curse-Repository-ID: wow/sharedmedia/mainline
 
-## X-Revision: 183
-## X-Date: 2012-09-02T18:46:13Z
+## X-Revision: 184
+## X-Date: 2012-09-07T08:45:26Z
 
 ## OptionalDeps: LibStub, LibSharedMedia-3.0
 

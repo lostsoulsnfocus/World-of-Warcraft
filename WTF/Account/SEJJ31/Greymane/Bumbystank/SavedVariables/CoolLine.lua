@@ -1,0 +1,51 @@
+
+CoolLineCharDB = {
+	["hidebag"] = true,
+	["bgcolor"] = {
+		["a"] = 0.5,
+		["r"] = 0,
+		["g"] = 0,
+		["b"] = 0,
+	},
+	["border"] = "Blizzard Dialog",
+	["h"] = 27,
+	["fontsize"] = 10,
+	["perchar"] = true,
+	["block"] = {
+		["Hearthstone"] = true,
+	},
+	["iconplus"] = 12,
+	["spellcolor"] = {
+		["a"] = 1,
+		["r"] = 0.8,
+		["g"] = 0.4,
+		["b"] = 0,
+	},
+	["nospellcolor"] = {
+		["a"] = 1,
+		["r"] = 0,
+		["g"] = 0,
+		["b"] = 0,
+	},
+	["inactivealpha"] = 0.5,
+	["bordercolor"] = {
+		["a"] = 1,
+		["r"] = 1,
+		["g"] = 1,
+		["b"] = 1,
+	},
+	["w"] = 294,
+	["hidepet"] = true,
+	["y"] = -273,
+	["x"] = 9,
+	["dbinit"] = 1,
+	["activealpha"] = 1,
+	["font"] = "Friz Quadrata TT",
+	["fontcolor"] = {
+		["a"] = 0.8,
+		["r"] = 1,
+		["g"] = 1,
+		["b"] = 1,
+	},
+	["statusbar"] = "VuhDo - Aluminium",
+}

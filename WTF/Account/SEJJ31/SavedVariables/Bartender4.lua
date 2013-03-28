@@ -6,6 +6,78 @@ Bartender4DB = {
 				["Bumbypwns - Greymane"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 244.5333251953125,
+								["x"] = -132.5,
+								["point"] = "BOTTOM",
+								["scale"] = 1.100000023841858,
+							},
+						}, -- [1]
+						{
+							["padding"] = 3,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 102.5000078876815,
+								["x"] = -200.1633792306348,
+								["point"] = "BOTTOM",
+								["scale"] = 0.9000000357627869,
+							},
+						}, -- [2]
+						{
+							["padding"] = 3,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 102.7499852776509,
+								["x"] = 5.041702671180246,
+								["point"] = "BOTTOM",
+								["scale"] = 0.9000000357627869,
+							},
+						}, -- [3]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.4998779296875,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = -208.3057031082244,
+								["x"] = -159.8436732163536,
+								["point"] = "CENTER",
+								["scale"] = 0.9500000476837158,
+							},
+							["version"] = 3,
+							["buttons"] = 9,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Bumbystank - Greymane"] = {
+					["actionbars"] = {
+						{
 							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
@@ -82,6 +154,14 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -67.1888427734375,
+						["x"] = -244.355712890625,
+						["point"] = "RIGHT",
+					},
+				},
+				["Bumbystank - Greymane"] = {
 					["position"] = {
 						["y"] = -67.1888427734375,
 						["x"] = -244.355712890625,
@@ -94,6 +174,16 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["fadeout"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 32.40000353455548,
+						["x"] = -124.799841070173,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Bumbystank - Greymane"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 32.40000353455548,
@@ -112,6 +202,15 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["fadeout"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 36,
+						["x"] = 339.4620361328125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Bumbystank - Greymane"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
@@ -119,18 +218,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 					["fadeout"] = true,
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Bumbypwns - Greymane"] = {
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
 				},
 			},
 		},
@@ -144,11 +231,47 @@ Bartender4DB = {
 						["point"] = "RIGHT",
 					},
 				},
+				["Bumbystank - Greymane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -125.1889038085938,
+						["x"] = -230.8447265625,
+						["point"] = "RIGHT",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Bumbypwns - Greymane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Bumbystank - Greymane"] = {
+					["position"] = {
+						["y"] = 94.05553436279297,
+						["x"] = -394.8633728027344,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 234.9140472412109,
+						["x"] = -455.666015625,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Bumbystank - Greymane"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 234.9140472412109,
@@ -163,9 +286,13 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
 	},
 	["profiles"] = {
 		["Bumbypwns - Greymane"] = {
+			["buttonlock"] = true,
+		},
+		["Bumbystank - Greymane"] = {
 			["buttonlock"] = true,
 		},
 	},

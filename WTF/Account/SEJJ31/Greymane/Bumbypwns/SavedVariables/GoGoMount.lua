@@ -18,12 +18,19 @@ GoGo_Prefs = {
 	},
 	["DruidFormNotRandomize"] = false,
 	["Zones"] = {
-		["Shrine of Two Moons"] = {
+		["Kun-Lai Summit"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 903,
+			["ZoneID"] = 809,
+		},
+		["Hall of the Defamed"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 928,
 		},
 		["Vale of Eternal Blossoms"] = {
 			["Preferred"] = {
@@ -31,6 +38,41 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 			["ZoneID"] = 811,
+		},
+		["Hall of the Grand Imperion"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 928,
+		},
+		["Shrine of Two Moons"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 903,
+		},
+		["Dawnseeker's Promontory"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 928,
+		},
+		["Isle of Thunder"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 928,
+		},
+		["Townlong Steppes"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 810,
 		},
 	},
 	["DisableMountNotice"] = false,

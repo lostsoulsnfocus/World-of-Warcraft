@@ -12,44 +12,50 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
-				},
-				["Shaman"] = {
 					["x"] = 1534.000732421875,
 					["y"] = 345.9998474121094,
 				},
-			},
-		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["y"] = 116.0002136230469,
-					["x"] = 837.9999389648438,
-				},
 				["Shaman"] = {
-					["nametextx"] = -9,
-					["w"] = 350,
-					["y"] = 157.8222961425781,
-					["font"] = "Vixar",
-					["scale"] = 0.7749999761581421,
-					["border"] = "Blizzard Chat Bubble",
-					["fontsize"] = 16,
-					["nametextposition"] = "center",
-					["x"] = 1067.580444335938,
-					["texture"] = "Tukui",
+					["y"] = 345.9998474121094,
+					["x"] = 1534.000732421875,
 				},
 			},
 		},
 		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["nametextx"] = -9,
+					["w"] = 350,
+					["y"] = 157.8222961425781,
+					["x"] = 1067.580444335938,
+					["scale"] = 0.7749999761581421,
+					["border"] = "Blizzard Chat Bubble",
+					["fontsize"] = 16,
+					["font"] = "Vixar",
+					["nametextposition"] = "center",
+					["texture"] = "Tukui",
+				},
+				["Shaman"] = {
+					["scale"] = 0.7749999761581421,
+					["w"] = 350,
+					["y"] = 157.8222961425781,
+					["font"] = "Vixar",
+					["fontsize"] = 16,
+					["texture"] = "Tukui",
+					["x"] = 1067.580444335938,
+					["nametextx"] = -9,
+					["border"] = "Blizzard Chat Bubble",
+					["nametextposition"] = "center",
+				},
+			},
 		},
 		["GCD"] = {
 		},
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
-				},
-				["Shaman"] = {
 					["showhostile"] = false,
 					["h"] = 16,
 					["showfriendly"] = false,
@@ -57,34 +63,53 @@ Quartz3DB = {
 					["y"] = 313.9999694824219,
 					["x"] = 1537.001098632813,
 				},
+				["Shaman"] = {
+					["y"] = 313.9999694824219,
+					["h"] = 16,
+					["showfriendly"] = false,
+					["showtarget"] = false,
+					["x"] = 1537.001098632813,
+					["showhostile"] = false,
+				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 860,
-				},
-				["Shaman"] = {
+					["noInterruptShield"] = false,
 					["showhostile"] = false,
 					["showfriendly"] = false,
 					["y"] = 278.0003662109375,
 					["x"] = 1538.001098632813,
+				},
+				["Shaman"] = {
+					["y"] = 278.0003662109375,
+					["x"] = 1538.001098632813,
+					["showfriendly"] = false,
 					["noInterruptShield"] = false,
+					["showhostile"] = false,
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Bumbypwns - Greymane"] = "Shaman",
+		["Bumbystank - Greymane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["modules"] = {
+				["Target"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
+			},
+			["hidesamwise"] = false,
 		},
 		["Shaman"] = {
 			["modules"] = {

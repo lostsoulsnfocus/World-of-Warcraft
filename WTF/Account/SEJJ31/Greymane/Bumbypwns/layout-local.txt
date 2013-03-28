@@ -10,7 +10,7 @@ Frame: DBMMinimapButton
 FrameLevel: 8
 Anchor: TOPRIGHT
 X: -151
-Y: -146
+Y: -154
 W: 32
 H: 32
 Frame: Quartz3CastBarPlayer

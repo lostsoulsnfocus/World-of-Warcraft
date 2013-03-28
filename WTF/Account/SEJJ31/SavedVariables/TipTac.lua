@@ -38,9 +38,9 @@ TipTac_Config = {
 	["targetYouText"] = "<<YOU>>",
 	["top"] = 229.9998779296875,
 	["gradientTip"] = false,
-	["if_itemQualityBorder"] = false,
-	["fontFace"] = "Interface\\AddOns\\VuhDo\\Fonts\\vixar.ttf",
-	["backdropInsets"] = 3,
-	["tipBackdropBG"] = "Interface\\Addons\\SharedMedia\\background\\moo.tga",
 	["showDebuffs"] = false,
+	["tipBackdropBG"] = "Interface\\Addons\\SharedMedia\\background\\moo.tga",
+	["backdropInsets"] = 3,
+	["fontFace"] = "Interface\\AddOns\\VuhDo\\Fonts\\vixar.ttf",
+	["if_itemQualityBorder"] = false,
 }

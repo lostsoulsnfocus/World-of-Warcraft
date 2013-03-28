@@ -39,12 +39,12 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 811,
 		},
-		["Townlong Steppes"] = {
+		["Hall of the Grand Imperion"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 810,
+			["ZoneID"] = 928,
 		},
 		["Shrine of Two Moons"] = {
 			["Preferred"] = {
@@ -67,27 +67,27 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 928,
 		},
-		["Hall of the Grand Imperion"] = {
+		["Townlong Steppes"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 928,
+			["ZoneID"] = 810,
 		},
 	},
 	["DisableMountNotice"] = false,
-	["DisableWaterFlight"] = true,
-	["ExtraPassengerMounts"] = {
-	},
+	["DruidDisableInCombat"] = false,
+	["PaladinUseCrusaderAura"] = false,
 	["DisableUpdateNotice"] = false,
-	["autodismount"] = true,
+	["RemoveBuffs"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["RemoveBuffs"] = true,
-	["PaladinUseCrusaderAura"] = false,
-	["DruidDisableInCombat"] = false,
+	["autodismount"] = true,
+	["ExtraPassengerMounts"] = {
+	},
+	["DisableWaterFlight"] = true,
 }
 GoGo_DebugLog = {
 }

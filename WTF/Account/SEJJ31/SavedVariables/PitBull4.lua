@@ -304,7 +304,16 @@ PitBull4DB = {
 				},
 			},
 		},
-		["RestIcon"] = {
+		["ReputationBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["layouts"] = {
+						["Normal"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
 		},
 		["Background"] = {
 			["profiles"] = {
@@ -325,16 +334,7 @@ PitBull4DB = {
 		},
 		["HideBlizzard"] = {
 		},
-		["ReputationBar"] = {
-			["profiles"] = {
-				["Default"] = {
-					["layouts"] = {
-						["Normal"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-			},
+		["RestIcon"] = {
 		},
 		["Sounds"] = {
 		},
@@ -479,8 +479,9 @@ PitBull4DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Bumbypwns - Greymane"] = "Default",
 		["Bumbystank - Greymane"] = "Default",
+		["Bumbypwns - Greymane"] = "Default",
+		["Bumbysbaby - Terokkar"] = "Default",
 	},
 	["global"] = {
 		["config_version"] = 2,
@@ -535,11 +536,11 @@ PitBull4DB = {
 					["size_x"] = 0.8500000238418579,
 				},
 				["target"] = {
-					["position_x"] = 276.5423583984375,
+					["horizontal_mirror"] = true,
 					["size_y"] = 1.049999952316284,
 					["position_y"] = -340.3040008544922,
+					["position_x"] = 276.5423583984375,
 					["size_x"] = 1.049999952316284,
-					["horizontal_mirror"] = true,
 				},
 				["pettarget"] = {
 					["enabled"] = false,

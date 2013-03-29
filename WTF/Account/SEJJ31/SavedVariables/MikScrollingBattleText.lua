@@ -61,23 +61,23 @@ MSBTProfiles_SavedVars = {
 			},
 			["critFontName"] = "X360",
 			["scrollAreas"] = {
-				["Incoming"] = {
-					["stickyDirection"] = "Down",
-					["direction"] = "Up",
-					["offsetX"] = -413,
-					["offsetY"] = -92,
-				},
 				["Outgoing"] = {
 					["offsetX"] = 385,
 					["offsetY"] = -111,
+				},
+				["Static"] = {
+					["offsetX"] = 337,
+					["offsetY"] = -241,
 				},
 				["Notification"] = {
 					["offsetX"] = -193,
 					["offsetY"] = 230,
 				},
-				["Static"] = {
-					["offsetX"] = 337,
-					["offsetY"] = -241,
+				["Incoming"] = {
+					["stickyDirection"] = "Down",
+					["direction"] = "Up",
+					["offsetX"] = -413,
+					["offsetY"] = -92,
 				},
 			},
 			["normalFontName"] = "Vixar",

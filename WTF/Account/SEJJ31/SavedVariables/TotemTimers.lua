@@ -4,6 +4,32 @@ TotemTimers_GlobalSettings = {
 	},
 	["Version"] = 11,
 	["Profiles"] = {
+		["Bumbysbaby"] = {
+			{
+				["party"] = "default",
+				["scenario"] = "default",
+				["none"] = "default",
+				["raid"] = "default",
+				["arena"] = "default",
+				["pvp"] = "default",
+			}, -- [1]
+			{
+				["party"] = "default",
+				["scenario"] = "default",
+				["none"] = "default",
+				["raid"] = "default",
+				["arena"] = "default",
+				["pvp"] = "default",
+			}, -- [2]
+			{
+				["party"] = "default",
+				["scenario"] = "default",
+				["none"] = "default",
+				["raid"] = "default",
+				["arena"] = "default",
+				["pvp"] = "default",
+			}, -- [3]
+		},
 		["Bumbypwns"] = {
 			{
 				["party"] = "default",
@@ -94,8 +120,8 @@ TotemTimers_Profiles = {
 		["Warnings"] = {
 			["TotemWarning"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Totem Expiring",
 				["sound"] = "",
@@ -103,8 +129,8 @@ TotemTimers_Profiles = {
 			},
 			["TotemDestroyed"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Totem Destroyed",
 				["sound"] = "",
@@ -112,8 +138,8 @@ TotemTimers_Profiles = {
 			},
 			["TotemExpiration"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Totem Expired",
 				["sound"] = "",
@@ -121,8 +147,8 @@ TotemTimers_Profiles = {
 			},
 			["Shield"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Shield removed",
 				["sound"] = "",
@@ -130,8 +156,8 @@ TotemTimers_Profiles = {
 			},
 			["EarthShield"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Shield removed",
 				["sound"] = "",
@@ -139,8 +165,8 @@ TotemTimers_Profiles = {
 			},
 			["Maelstrom"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Maelstrom Notifier",
 				["sound"] = "",
@@ -148,8 +174,8 @@ TotemTimers_Profiles = {
 			},
 			["Weapon"] = {
 				["a"] = 1,
-				["b"] = 0,
 				["r"] = 1,
+				["b"] = 0,
 				["g"] = 0,
 				["text"] = "Totem Expired",
 				["sound"] = "",
@@ -161,12 +187,16 @@ TotemTimers_Profiles = {
 		["TimerTimeHeight"] = 12,
 		["ShieldLeftButton"] = "Lightning Shield",
 		["LastOffEnchants"] = {
+			[85996] = {
+				"", -- [1]
+				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
+			},
 			[85994] = {
 				"Flametongue", -- [1]
 				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
 			},
-			[85996] = {
-				"", -- [1]
+			[81853] = {
+				"Flametongue", -- [1]
 				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
 			},
 		},
@@ -206,19 +236,11 @@ TotemTimers_Profiles = {
 		["CrowdControlSize"] = 30,
 		["CrowdControlClickthrough"] = false,
 		["LavaSurgeGlow"] = true,
-		["TimerBarColor"] = {
-			["a"] = 1,
-			["r"] = 0.5,
-			["g"] = 0.5,
-			["b"] = 1,
-		},
+		["TotemMenuSpacing"] = 0,
 		["CheckPlayerRange"] = true,
 		["TrackerTimeHeight"] = 11,
 		["ShowKeybinds"] = true,
 		["TimerBarTexture"] = "Tukui",
-		["EnhanceCDsSize"] = 28,
-		["ShowCooldowns"] = true,
-		["TotemMenuSpacing"] = 0,
 		["TimerPositions"] = {
 			{
 				"CENTER", -- [1]
@@ -249,11 +271,19 @@ TotemTimers_Profiles = {
 				40, -- [5]
 			}, -- [4]
 		},
+		["ShowCooldowns"] = true,
+		["TimerBarColor"] = {
+			["a"] = 1,
+			["r"] = 0.5,
+			["g"] = 0.5,
+			["b"] = 1,
+		},
+		["EnhanceCDsSize"] = 28,
 		["ESMainTankMenu"] = true,
 		["ShowRaidRangeTooltip"] = true,
 		["OpenOnRightclick"] = false,
-		["LastWeaponEnchant2"] = "Flametongue Weapon",
 		["TimerSize"] = 38,
+		["LastWeaponEnchant2"] = "Flametongue Weapon",
 		["TrackerSize"] = 38,
 		["ActivateHiddenTimers"] = false,
 		["CrowdControlTimePos"] = "BOTTOM",
@@ -261,16 +291,16 @@ TotemTimers_Profiles = {
 		["ESMainTankMenuDirection"] = "auto",
 		["TrackerTimeSpacing"] = 2,
 		["TimerTimeSpacing"] = 5,
-		["EarthShieldLeftButton"] = "recast",
 		["CooldownSpacing"] = 8,
+		["EarthShieldLeftButton"] = "recast",
 		["TimeColor"] = {
 			["r"] = 1,
 			["g"] = 1,
 			["b"] = 1,
 		},
-		["TrackerTimerBarWidth"] = 36,
-		["Arrange"] = "horizontal",
 		["TrackerTimePos"] = "BOTTOM",
+		["Arrange"] = "horizontal",
+		["TrackerTimerBarWidth"] = 36,
 		["CrowdControlBindElemental"] = true,
 		["ShieldTracker"] = true,
 		["EarthShieldTargetName"] = true,
@@ -320,27 +350,35 @@ TotemTimers_Profiles = {
 				9, -- [9]
 			}, -- [3]
 		},
-		["Tooltips"] = true,
+		["MiniIcons"] = true,
 		["ESChargesOnly"] = false,
 		["ShieldMiddleButton"] = "Totemic Recall",
-		["WeaponTracker"] = true,
-		["MenusAlwaysVisible"] = false,
 		["HideBlizzTimers"] = true,
+		["MenusAlwaysVisible"] = false,
+		["WeaponTracker"] = true,
 		["BarBindings"] = true,
 		["ShieldRightButton"] = "Water Shield",
 		["WeaponMenuOnRightclick"] = false,
-		["MiniIcons"] = true,
+		["Tooltips"] = true,
 		["WeaponBarDirection"] = "auto",
 		["LastMainEnchants"] = {
-			[94759] = {
-				"Windfury", -- [1]
-				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_wind", -- [2]
-			},
 			[90527] = {
 				"", -- [1]
 				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
 			},
+			[94759] = {
+				"Windfury", -- [1]
+				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_wind", -- [2]
+			},
 			[86335] = {
+				"", -- [1]
+				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
+			},
+			[80873] = {
+				"Windfury", -- [1]
+				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_wind", -- [2]
+			},
+			[82113] = {
 				"", -- [1]
 				"INTERFACE\\ICONS\\spell_shaman_unleashweapon_flame", -- [2]
 			},
@@ -438,9 +476,9 @@ TotemTimers_Profiles = {
 		["CDTimersOnButtons"] = true,
 		["LastTotems"] = {
 			"Fire Elemental Totem", -- [1]
-			"Earthgrab Totem", -- [2]
-			"Healing Tide Totem", -- [3]
-			"Capacitor Totem", -- [4]
+			"Tremor Totem", -- [2]
+			"Mana Tide Totem", -- [3]
+			"Stormlash Totem", -- [4]
 		},
 		["TrackerSpacing"] = 5,
 		["EarthShieldMiddleButton"] = "targettarget",

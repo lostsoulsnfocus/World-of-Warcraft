@@ -113,9 +113,9 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
-						["Say"] = {
-							["b"] = 1,
-							["g"] = 1,
+						["Trade"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
 						["Instance Leader"] = {
@@ -123,9 +123,9 @@ ChatterDB = {
 							["g"] = 0.2823529541492462,
 							["r"] = 1,
 						},
-						["Trade"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
+						["Say"] = {
+							["b"] = 1,
+							["g"] = 1,
 							["r"] = 1,
 						},
 						["enox"] = {
@@ -206,6 +206,15 @@ ChatterDB = {
 						"/roll", -- [32]
 					},
 				},
+				["Terokkar"] = {
+					["history"] = {
+						" yeah no work tomorrow so burning energy lol", -- [1]
+						" was an awesome night of raiding 6 boss in a row only a couple of hiccups", -- [2]
+						" yeah next two fights dont look that difficult so i smell 8/12", -- [3]
+						"/coolline", -- [4]
+						"/tt", -- [5]
+					},
+				},
 			},
 		},
 		["ChatFont"] = {
@@ -220,8 +229,9 @@ ChatterDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Bumbypwns - Greymane"] = "Default",
 		["Bumbystank - Greymane"] = "Default",
+		["Bumbypwns - Greymane"] = "Default",
+		["Bumbysbaby - Terokkar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

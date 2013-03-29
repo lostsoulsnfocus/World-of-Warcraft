@@ -4,18 +4,22 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Bumbypwns|Greymane|Horde|90|SHAMAN", -- [1]
-				"Bumbystank|Greymane|Horde|90|PALADIN", -- [2]
+				"Bumbysbaby|Terokkar|Alliance|87|SHAMAN", -- [2]
+				"Bumbystank|Greymane|Horde|90|PALADIN", -- [3]
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
 		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
+		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
 	},
 	["profiles"] = {
+		["Bumbystank - Greymane"] = {
+		},
 		["Bumbypwns - Greymane"] = {
 		},
-		["Bumbystank - Greymane"] = {
+		["Bumbysbaby - Terokkar"] = {
 		},
 	},
 }

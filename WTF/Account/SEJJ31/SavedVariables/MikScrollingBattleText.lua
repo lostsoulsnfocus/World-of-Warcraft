@@ -1,5 +1,6 @@
 
 MSBTProfiles_SavedVars = {
+	["userDisabled"] = true,
 	["profiles"] = {
 		["Default"] = {
 			["events"] = {
@@ -42,41 +43,41 @@ MSBTProfiles_SavedVars = {
 				["INCOMING_SPELL_RESIST"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_PARRY"] = {
-					["disabled"] = true,
-				},
-				["INCOMING_DODGE"] = {
-					["disabled"] = true,
-				},
-				["INCOMING_SPELL_ABSORB"] = {
+				["INCOMING_SPELL_BLOCK"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_SPELL_PARRY"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_BLOCK"] = {
+				["INCOMING_SPELL_ABSORB"] = {
+					["disabled"] = true,
+				},
+				["INCOMING_DODGE"] = {
+					["disabled"] = true,
+				},
+				["INCOMING_PARRY"] = {
 					["disabled"] = true,
 				},
 			},
 			["critFontName"] = "X360",
 			["scrollAreas"] = {
-				["Outgoing"] = {
-					["offsetX"] = 385,
-					["offsetY"] = -111,
-				},
-				["Static"] = {
-					["offsetX"] = 337,
-					["offsetY"] = -241,
-				},
-				["Notification"] = {
-					["offsetX"] = -193,
-					["offsetY"] = 230,
-				},
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
 					["direction"] = "Up",
 					["offsetX"] = -413,
 					["offsetY"] = -92,
+				},
+				["Outgoing"] = {
+					["offsetX"] = 385,
+					["offsetY"] = -111,
+				},
+				["Notification"] = {
+					["offsetX"] = -193,
+					["offsetY"] = 230,
+				},
+				["Static"] = {
+					["offsetX"] = 337,
+					["offsetY"] = -241,
 				},
 			},
 			["normalFontName"] = "Vixar",

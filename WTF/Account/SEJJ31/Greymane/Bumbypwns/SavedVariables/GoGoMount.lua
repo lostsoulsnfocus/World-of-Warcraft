@@ -18,12 +18,33 @@ GoGo_Prefs = {
 	},
 	["DruidFormNotRandomize"] = false,
 	["Zones"] = {
-		["Kun-Lai Summit"] = {
+		["Hall of the Grand Imperion"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 809,
+			["ZoneID"] = 928,
+		},
+		["Shrine of Two Moons"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 811,
+		},
+		["Dawnseeker's Promontory"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 928,
+		},
+		["Isle of Thunder"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = -1,
 		},
 		["Hall of the Defamed"] = {
 			["Preferred"] = {
@@ -39,33 +60,19 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 811,
 		},
-		["Hall of the Grand Imperion"] = {
+		["Kun-Lai Summit"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 928,
+			["ZoneID"] = 809,
 		},
-		["Shrine of Two Moons"] = {
+		["Throne of Thunder"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 903,
-		},
-		["Dawnseeker's Promontory"] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-			["ZoneID"] = 928,
-		},
-		["Isle of Thunder"] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-			["ZoneID"] = 928,
+			["ZoneID"] = 862,
 		},
 		["Townlong Steppes"] = {
 			["Preferred"] = {
@@ -76,18 +83,18 @@ GoGo_Prefs = {
 		},
 	},
 	["DisableMountNotice"] = false,
-	["DruidDisableInCombat"] = false,
-	["PaladinUseCrusaderAura"] = false,
+	["DisableWaterFlight"] = true,
+	["ExtraPassengerMounts"] = {
+	},
 	["DisableUpdateNotice"] = false,
-	["RemoveBuffs"] = true,
+	["autodismount"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["autodismount"] = true,
-	["ExtraPassengerMounts"] = {
-	},
-	["DisableWaterFlight"] = true,
+	["RemoveBuffs"] = true,
+	["PaladinUseCrusaderAura"] = false,
+	["DruidDisableInCombat"] = false,
 }
 GoGo_DebugLog = {
 }

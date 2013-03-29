@@ -6,9 +6,9 @@ BagnonFrameSettings = {
 			["x"] = -5.999755859375,
 		},
 		["guildbank"] = {
+			["point"] = "BOTTOMRIGHT",
 			["y"] = 349.4999694824219,
-			["x"] = 667.0000610351563,
-			["point"] = "BOTTOMLEFT",
+			["x"] = -666.9998779296875,
 		},
 		["voidstorage"] = {
 			["point"] = "TOPLEFT",

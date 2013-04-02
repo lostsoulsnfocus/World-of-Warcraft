@@ -30,7 +30,7 @@ GoGo_Prefs = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 811,
+			["ZoneID"] = 903,
 		},
 		["Dawnseeker's Promontory"] = {
 			["Preferred"] = {
@@ -44,7 +44,7 @@ GoGo_Prefs = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = -1,
+			["ZoneID"] = 928,
 		},
 		["Hall of the Defamed"] = {
 			["Preferred"] = {
@@ -52,6 +52,13 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 			["ZoneID"] = 928,
+		},
+		["Siege of Niuzao Temple"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 810,
 		},
 		["Vale of Eternal Blossoms"] = {
 			["Preferred"] = {
@@ -67,13 +74,6 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 809,
 		},
-		["Throne of Thunder"] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-			["ZoneID"] = 862,
-		},
 		["Townlong Steppes"] = {
 			["Preferred"] = {
 			},
@@ -81,20 +81,34 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 810,
 		},
+		["Throne of Thunder"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 862,
+		},
+		["Orgrimmar"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 862,
+		},
 	},
 	["DisableMountNotice"] = false,
-	["DisableWaterFlight"] = true,
-	["ExtraPassengerMounts"] = {
-	},
+	["DruidDisableInCombat"] = false,
+	["PaladinUseCrusaderAura"] = false,
 	["DisableUpdateNotice"] = false,
-	["autodismount"] = true,
+	["RemoveBuffs"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["RemoveBuffs"] = true,
-	["PaladinUseCrusaderAura"] = false,
-	["DruidDisableInCombat"] = false,
+	["autodismount"] = true,
+	["ExtraPassengerMounts"] = {
+	},
+	["DisableWaterFlight"] = true,
 }
 GoGo_DebugLog = {
 }

@@ -1,25 +1,49 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
 		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
+		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
 	},
 	["profiles"] = {
+		["Bumbysbaby - Terokkar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -435.9997100830078,
+					["x"] = 866.4996337890625,
+					["w"] = 188.9998321533203,
+					["h"] = 207.9998626708984,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 207.9998626708984,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowWidth"] = 188.9998321533203,
+			["GraphWindowX"] = 0,
+		},
 		["Bumbypwns - Greymane"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -439.0001564025879,
-					["x"] = 851.4998168945313,
-					["w"] = 215.0001983642578,
-					["h"] = 207.9999389648438,
+					["y"] = -436.0001602172852,
+					["x"] = 845.9998779296875,
+					["w"] = 223.9998321533203,
+					["h"] = 201.9999694824219,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Throne of Thunder",
-			["BarTexture"] = "Flat",
-			["GraphWindowX"] = 0,
-			["MainWindowMode"] = 2,
+			["MainWindowHeight"] = 201.9999694824219,
 			["SegmentBosses"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -32,19 +56,22 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["Font"] = "X360",
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Throne of Thunder",
+			["BarTexture"] = "Flat",
 			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 215.0000305175781,
-			["MainWindowHeight"] = 207.9999389648438,
+			["MainWindowMode"] = 2,
+			["Font"] = "X360",
+			["MainWindowWidth"] = 223.9998321533203,
 		},
-		["Bumbysbaby - Terokkar"] = {
+		["Bumbystank - Greymane"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -435.9997100830078,
-					["x"] = 866.4996337890625,
-					["w"] = 188.9998321533203,
-					["h"] = 207.9998626708984,
+					["y"] = -437.0000534057617,
+					["x"] = 841.9998779296875,
+					["h"] = 199.9999847412109,
 				},
 			},
 			["Colors"] = {
@@ -58,11 +85,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowWidth"] = 188.9998321533203,
-			["GraphWindowX"] = 0,
-			["MainWindowHeight"] = 207.9998626708984,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 	},
 }

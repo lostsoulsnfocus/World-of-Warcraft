@@ -7,12 +7,16 @@ GoGo_Prefs = {
 		6653, -- [1]
 		32245, -- [2]
 		32244, -- [3]
-		32243, -- [4]
-		32296, -- [5]
-		23251, -- [6]
-		32246, -- [7]
-		32297, -- [8]
-		32295, -- [9]
+		32296, -- [4]
+		23251, -- [5]
+		32246, -- [6]
+		32297, -- [7]
+		32295, -- [8]
+		107517, -- [9]
+		39802, -- [10]
+		39800, -- [11]
+		32243, -- [12]
+		59788, -- [13]
 	},
 	["UnknownMounts"] = {
 	},
@@ -67,19 +71,19 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 811,
 		},
-		["Kun-Lai Summit"] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-			["ZoneID"] = 809,
-		},
 		["Townlong Steppes"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 			["ZoneID"] = 810,
+		},
+		["Kun-Lai Summit"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 809,
 		},
 		["Throne of Thunder"] = {
 			["Preferred"] = {
@@ -97,18 +101,18 @@ GoGo_Prefs = {
 		},
 	},
 	["DisableMountNotice"] = false,
-	["DruidDisableInCombat"] = false,
-	["PaladinUseCrusaderAura"] = false,
+	["DisableWaterFlight"] = true,
+	["ExtraPassengerMounts"] = {
+	},
 	["DisableUpdateNotice"] = false,
-	["RemoveBuffs"] = true,
+	["autodismount"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["autodismount"] = true,
-	["ExtraPassengerMounts"] = {
-	},
-	["DisableWaterFlight"] = true,
+	["RemoveBuffs"] = true,
+	["PaladinUseCrusaderAura"] = false,
+	["DruidDisableInCombat"] = false,
 }
 GoGo_DebugLog = {
 }

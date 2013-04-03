@@ -69,3 +69,10 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: MSBTMainOptionsFrame
+FrameLevel: 37
+Anchor: RIGHT
+X: 0
+Y: 53
+W: 608
+H: 440

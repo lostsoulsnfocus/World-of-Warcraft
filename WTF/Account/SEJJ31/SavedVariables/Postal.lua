@@ -1,5 +1,10 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
+		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
+		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -9,17 +14,12 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
-		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
-		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
-	},
 	["profiles"] = {
 		["Bumbystank - Greymane"] = {
 		},
-		["Bumbypwns - Greymane"] = {
-		},
 		["Bumbysbaby - Terokkar"] = {
+		},
+		["Bumbypwns - Greymane"] = {
 		},
 	},
 }

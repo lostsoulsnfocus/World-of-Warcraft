@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 24,
 	["lastSanitation"] = 3,
-	["session"] = 23,
 	["errors"] = {
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn \"GoGoMount\" tried to call the protected function \"GoGoButton:SetAttribute()\".",

@@ -6,8 +6,8 @@ Bartender4DB = {
 				["Bumbystank - Greymane"] = {
 					["actionbars"] = {
 						{
-							["rows"] = 2,
 							["padding"] = 6,
+							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 244.5333251953125,
@@ -17,8 +17,8 @@ Bartender4DB = {
 							},
 						}, -- [1]
 						{
-							["rows"] = 2,
 							["padding"] = 3,
+							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 102.5000078876815,
@@ -28,8 +28,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 2,
 							["padding"] = 3,
+							["rows"] = 2,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 102.7499852776509,
@@ -57,14 +57,14 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
-							["buttons"] = 9,
-							["version"] = 3,
 							["position"] = {
 								["y"] = -208.3057031082244,
 								["x"] = -159.8436732163536,
 								["point"] = "CENTER",
 								["scale"] = 0.9500000476837158,
 							},
+							["version"] = 3,
+							["buttons"] = 9,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -73,77 +73,6 @@ Bartender4DB = {
 						nil, -- [9]
 						{
 						}, -- [10]
-					},
-				},
-				["Bumbysbaby - Terokkar"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 1.100000023841858,
-								["x"] = -132.5,
-								["point"] = "BOTTOM",
-								["y"] = 244.5333251953125,
-							},
-						}, -- [1]
-						{
-							["padding"] = 3,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.9000000357627869,
-								["x"] = -200.1633792306348,
-								["point"] = "BOTTOM",
-								["y"] = 102.5000078876815,
-							},
-						}, -- [2]
-						{
-							["padding"] = 3,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.9000000357627869,
-								["x"] = 5.041702671180246,
-								["point"] = "BOTTOM",
-								["y"] = 102.7499852776509,
-							},
-						}, -- [3]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -113.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [4]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -75.4998779296875,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [5]
-						{
-							["position"] = {
-								["scale"] = 0.9500000476837158,
-								["x"] = -159.8436732163536,
-								["point"] = "CENTER",
-								["y"] = -208.3057031082244,
-							},
-							["version"] = 3,
-							["buttons"] = 9,
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
 					},
 				},
 				["Bumbypwns - Greymane"] = {
@@ -216,6 +145,77 @@ Bartender4DB = {
 						nil, -- [9]
 						{
 						}, -- [10]
+					},
+				},
+				["Bumbysbaby - Terokkar"] = {
+					["actionbars"] = {
+						{
+							["rows"] = 2,
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 1.100000023841858,
+								["x"] = -132.5,
+								["point"] = "BOTTOM",
+								["y"] = 244.5333251953125,
+							},
+						}, -- [1]
+						{
+							["rows"] = 2,
+							["padding"] = 3,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.9000000357627869,
+								["x"] = -200.1633792306348,
+								["point"] = "BOTTOM",
+								["y"] = 102.5000078876815,
+							},
+						}, -- [2]
+						{
+							["rows"] = 2,
+							["padding"] = 3,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.9000000357627869,
+								["x"] = 5.041702671180246,
+								["point"] = "BOTTOM",
+								["y"] = 102.7499852776509,
+							},
+						}, -- [3]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.4998779296875,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["buttons"] = 9,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.9500000476837158,
+								["x"] = -159.8436732163536,
+								["point"] = "CENTER",
+								["y"] = -208.3057031082244,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
 					},
 				},
 			},
@@ -232,14 +232,6 @@ Bartender4DB = {
 						["point"] = "RIGHT",
 					},
 				},
-				["Bumbysbaby - Terokkar"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -67.1888427734375,
-						["x"] = -244.355712890625,
-						["point"] = "RIGHT",
-					},
-				},
 				["Bumbypwns - Greymane"] = {
 					["position"] = {
 						["y"] = -67.1888427734375,
@@ -247,40 +239,48 @@ Bartender4DB = {
 						["point"] = "RIGHT",
 					},
 					["version"] = 3,
+				},
+				["Bumbysbaby - Terokkar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -67.1888427734375,
+						["x"] = -244.355712890625,
+						["point"] = "RIGHT",
+					},
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Bumbystank - Greymane"] = {
-					["version"] = 3,
 					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 32.40000353455548,
 						["x"] = -124.799841070173,
 						["point"] = "BOTTOM",
 						["scale"] = 0.800000011920929,
-					},
-				},
-				["Bumbysbaby - Terokkar"] = {
-					["version"] = 3,
-					["fadeout"] = true,
-					["position"] = {
-						["scale"] = 0.800000011920929,
-						["x"] = -124.799841070173,
-						["point"] = "BOTTOM",
-						["y"] = 32.40000353455548,
 					},
 				},
 				["Bumbypwns - Greymane"] = {
-					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 32.40000353455548,
 						["x"] = -124.799841070173,
 						["point"] = "BOTTOM",
 						["scale"] = 0.800000011920929,
 					},
+					["fadeout"] = true,
+				},
+				["Bumbysbaby - Terokkar"] = {
+					["fadeout"] = true,
 					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -124.799841070173,
+						["point"] = "BOTTOM",
+						["y"] = 32.40000353455548,
+					},
 				},
 			},
 		},
@@ -291,15 +291,6 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Bumbystank - Greymane"] = {
-					["version"] = 3,
-					["fadeout"] = true,
-					["position"] = {
-						["y"] = 36,
-						["x"] = 339.4620361328125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Bumbysbaby - Terokkar"] = {
 					["fadeout"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -309,40 +300,21 @@ Bartender4DB = {
 					},
 				},
 				["Bumbypwns - Greymane"] = {
-					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 36,
 						["x"] = 339.4620361328125,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Bumbystank - Greymane"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -125.1889038085938,
-						["x"] = -230.8447265625,
-						["point"] = "RIGHT",
-					},
+					["fadeout"] = true,
 				},
 				["Bumbysbaby - Terokkar"] = {
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
-						["y"] = -125.1889038085938,
-						["x"] = -230.8447265625,
-						["point"] = "RIGHT",
-					},
-				},
-				["Bumbypwns - Greymane"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -125.1889038085938,
-						["x"] = -230.8447265625,
-						["point"] = "RIGHT",
+						["y"] = 36,
+						["x"] = 339.4620361328125,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -357,6 +329,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Bumbypwns - Greymane"] = {
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
+				},
 				["Bumbysbaby - Terokkar"] = {
 					["version"] = 3,
 					["position"] = {
@@ -365,13 +345,33 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Bumbypwns - Greymane"] = {
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Bumbystank - Greymane"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = -125.1889038085938,
+						["x"] = -230.8447265625,
+						["point"] = "RIGHT",
+					},
+				},
+				["Bumbypwns - Greymane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -125.1889038085938,
+						["x"] = -230.8447265625,
+						["point"] = "RIGHT",
+					},
+				},
+				["Bumbysbaby - Terokkar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -125.1889038085938,
+						["x"] = -230.8447265625,
+						["point"] = "RIGHT",
+					},
 				},
 			},
 		},
@@ -385,7 +385,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Bumbysbaby - Terokkar"] = {
+				["Bumbypwns - Greymane"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 234.9140472412109,
@@ -393,7 +393,7 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Bumbypwns - Greymane"] = {
+				["Bumbysbaby - Terokkar"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 234.9140472412109,
@@ -408,21 +408,21 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
-		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
 		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
 	},
 	["profiles"] = {
 		["Bumbystank - Greymane"] = {
 			["buttonlock"] = true,
 		},
+		["Bumbypwns - Greymane"] = {
+			["buttonlock"] = true,
+		},
 		["Bumbysbaby - Terokkar"] = {
+			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 215.9524358658333,
 			},
-			["buttonlock"] = true,
-		},
-		["Bumbypwns - Greymane"] = {
-			["buttonlock"] = true,
 		},
 	},
 }

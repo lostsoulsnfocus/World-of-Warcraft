@@ -34,109 +34,109 @@ ChatterDB = {
 				["Default"] = {
 					["colors"] = {
 						["Guild"] = {
-							["r"] = 0.250980406999588,
-							["g"] = 1,
 							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
 						},
 						["Real ID Whisper"] = {
-							["r"] = 0,
-							["g"] = 1,
 							["b"] = 0.9647059440612793,
+							["g"] = 1,
+							["r"] = 0,
 						},
 						["Raid Leader"] = {
-							["r"] = 1,
-							["g"] = 0.2823529541492462,
 							["b"] = 0.03529411926865578,
+							["g"] = 0.2823529541492462,
+							["r"] = 1,
 						},
 						["LookingForGroup"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 						["Party"] = {
-							["r"] = 0.6666666865348816,
-							["g"] = 0.6666666865348816,
 							["b"] = 1,
+							["g"] = 0.6666666865348816,
+							["r"] = 0.6666666865348816,
 						},
 						["Whisper"] = {
-							["r"] = 1,
-							["g"] = 0.501960813999176,
 							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
 						},
 						["Raid"] = {
-							["r"] = 1,
-							["g"] = 0.4980392456054688,
 							["b"] = 0,
+							["g"] = 0.4980392456054688,
+							["r"] = 1,
 						},
 						["Raid Warning"] = {
-							["r"] = 1,
-							["g"] = 0.2823529541492462,
 							["b"] = 0,
+							["g"] = 0.2823529541492462,
+							["r"] = 1,
 						},
 						["Party Leader"] = {
-							["r"] = 0.4627451300621033,
-							["g"] = 0.7843137979507446,
 							["b"] = 1,
+							["g"] = 0.7843137979507446,
+							["r"] = 0.4627451300621033,
 						},
 						["Instance"] = {
-							["r"] = 1,
-							["g"] = 0.4980392456054688,
 							["b"] = 0,
+							["g"] = 0.4980392456054688,
+							["r"] = 1,
 						},
-						["Officer"] = {
-							["r"] = 0.250980406999588,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.250980406999588,
+						["Real ID Conversation"] = {
+							["b"] = 0.9411765336990356,
+							["g"] = 0.6941176652908325,
+							["r"] = 0,
 						},
 						["blhealers"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
 							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
 						},
 						["Yell"] = {
-							["r"] = 1,
-							["g"] = 0.250980406999588,
 							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
 						},
 						["LocalDefense"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["obgyns"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
-						["obgyns"] = {
+						["General"] = {
 							["b"] = 0.7529412508010864,
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
 						["Say"] = {
-							["r"] = 1,
-							["g"] = 1,
 							["b"] = 1,
-						},
-						["Trade"] = {
+							["g"] = 1,
 							["r"] = 1,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.7529412508010864,
 						},
 						["Instance Leader"] = {
-							["r"] = 1,
-							["g"] = 0.2823529541492462,
 							["b"] = 0.03529411926865578,
-						},
-						["General"] = {
+							["g"] = 0.2823529541492462,
 							["r"] = 1,
-							["g"] = 0.7529412508010864,
+						},
+						["Trade"] = {
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
 						["enox"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
 						},
-						["Real ID Conversation"] = {
-							["r"] = 0,
-							["g"] = 0.6941176652908325,
-							["b"] = 0.9411765336990356,
+						["Officer"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.7529412508010864,
+							["r"] = 0.250980406999588,
 						},
 					},
 				},
@@ -152,19 +152,13 @@ ChatterDB = {
 		},
 		["Server Positioning"] = {
 		},
-		["Mousewheel Scroll"] = {
+		["JustifyText"] = {
 		},
 		["Timestamps"] = {
 		},
 		["EditBox"] = {
 		},
-		["ChatFont"] = {
-			["profiles"] = {
-				["Default"] = {
-					["font"] = "Vixar",
-					["fontsize"] = 11,
-				},
-			},
+		["Highlight"] = {
 		},
 		["ChatTabs"] = {
 		},
@@ -179,37 +173,37 @@ ChatterDB = {
 				["Greymane"] = {
 					["history"] = {
 						"/msbt", -- [1]
-						"/g hey klob putting the final touches on the UI", -- [2]
-						"/dbm", -- [3]
+						"/coolline", -- [2]
+						"/coolline", -- [3]
 						"/roll", -- [4]
-						"/msbt", -- [5]
-						"/coolline", -- [6]
-						"/coolline", -- [7]
-						"/roll", -- [8]
-						"/g good day all", -- [9]
+						"/g good day all", -- [5]
+						"/MSBT", -- [6]
+						"/TT", -- [7]
+						"/DBM", -- [8]
+						"/MSBT", -- [9]
 						"/MSBT", -- [10]
 						"/TT", -- [11]
-						"/DBM", -- [12]
-						"/MSBT", -- [13]
-						"/MSBT", -- [14]
-						"/TT", -- [15]
+						"/MSBT", -- [12]
+						"/TT", -- [13]
+						"/DBM", -- [14]
+						"/cw Temeryx YEAH I DROP IT ALWAYS 40 YRD RANGE", -- [15]
 						"/MSBT", -- [16]
-						"/TT", -- [17]
+						"/MSBT", -- [17]
 						"/DBM", -- [18]
-						"/cw Temeryx YEAH I DROP IT ALWAYS 40 YRD RANGE", -- [19]
-						"/MSBT", -- [20]
-						"/MSBT", -- [21]
-						"/DBM", -- [22]
-						"/s YEP", -- [23]
-						"/s like the apple store except less douches", -- [24]
-						"/s ;lol", -- [25]
-						"/g hey tig", -- [26]
-						"/msbt", -- [27]
-						"/g hey tem", -- [28]
-						"/g chilling just messing with my ui a bit more ", -- [29]
-						"/msbt", -- [30]
-						"/gogo", -- [31]
-						"/gogo options", -- [32]
+						"/s YEP", -- [19]
+						"/s like the apple store except less douches", -- [20]
+						"/s ;lol", -- [21]
+						"/g hey tig", -- [22]
+						"/msbt", -- [23]
+						"/g hey tem", -- [24]
+						"/g chilling just messing with my ui a bit more ", -- [25]
+						"/msbt", -- [26]
+						"/gogo", -- [27]
+						"/gogo options", -- [28]
+						"/g evening all", -- [29]
+						"/g what the hell is with the new senario", -- [30]
+						"/g damn thing was glitched", -- [31]
+						"/g extra action bar wasnt coming up for the quest", -- [32]
 					},
 				},
 				["Terokkar"] = {
@@ -223,15 +217,21 @@ ChatterDB = {
 				},
 			},
 		},
-		["Highlight"] = {
+		["ChatFont"] = {
+			["profiles"] = {
+				["Default"] = {
+					["font"] = "Vixar",
+					["fontsize"] = 11,
+				},
+			},
 		},
-		["JustifyText"] = {
+		["Mousewheel Scroll"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Bumbystank - Greymane"] = "Default",
-		["Bumbysbaby - Terokkar"] = "Default",
 		["Bumbypwns - Greymane"] = "Default",
+		["Bumbysbaby - Terokkar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

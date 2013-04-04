@@ -21,8 +21,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -31,11 +29,11 @@ Quartz3DB = {
 					["y"] = 157.8222961425781,
 					["x"] = 1067.580444335938,
 					["fontsize"] = 16,
-					["nametextposition"] = "center",
-					["border"] = "Blizzard Chat Bubble",
-					["nametextx"] = -9,
-					["font"] = "Vixar",
 					["texture"] = "Tukui",
+					["font"] = "Vixar",
+					["nametextx"] = -9,
+					["border"] = "Blizzard Chat Bubble",
+					["nametextposition"] = "center",
 				},
 				["Shaman"] = {
 					["nametextx"] = -9,
@@ -45,11 +43,13 @@ Quartz3DB = {
 					["scale"] = 0.7749999761581421,
 					["border"] = "Blizzard Chat Bubble",
 					["fontsize"] = 16,
-					["texture"] = "Tukui",
-					["x"] = 1067.580444335938,
 					["nametextposition"] = "center",
+					["x"] = 1067.580444335938,
+					["texture"] = "Tukui",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -83,25 +83,25 @@ Quartz3DB = {
 					["showhostile"] = false,
 				},
 				["Shaman"] = {
-					["noInterruptShield"] = false,
 					["showhostile"] = false,
 					["showfriendly"] = false,
 					["y"] = 278.0003662109375,
 					["x"] = 1538.001098632813,
+					["noInterruptShield"] = false,
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Bumbystank - Greymane"] = "Default",
-		["Bumbysbaby - Terokkar"] = "Default",
 		["Bumbypwns - Greymane"] = "Shaman",
+		["Bumbysbaby - Terokkar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

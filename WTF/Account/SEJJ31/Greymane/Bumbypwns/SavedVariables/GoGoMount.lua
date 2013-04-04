@@ -43,6 +43,13 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 928,
 		},
+		["Vale of Eternal Blossoms"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 811,
+		},
 		["Isle of Thunder"] = {
 			["Preferred"] = {
 			},
@@ -64,19 +71,12 @@ GoGo_Prefs = {
 			},
 			["ZoneID"] = 810,
 		},
-		["Vale of Eternal Blossoms"] = {
+		["The Foot of Lei Shen"] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 811,
-		},
-		["Townlong Steppes"] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-			["ZoneID"] = 810,
+			["ZoneID"] = 928,
 		},
 		["Kun-Lai Summit"] = {
 			["Preferred"] = {
@@ -84,6 +84,13 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 			["ZoneID"] = 809,
+		},
+		["Townlong Steppes"] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+			["ZoneID"] = 810,
 		},
 		["Throne of Thunder"] = {
 			["Preferred"] = {
@@ -101,18 +108,18 @@ GoGo_Prefs = {
 		},
 	},
 	["DisableMountNotice"] = false,
-	["DisableWaterFlight"] = true,
-	["ExtraPassengerMounts"] = {
-	},
+	["DruidDisableInCombat"] = false,
+	["PaladinUseCrusaderAura"] = false,
 	["DisableUpdateNotice"] = false,
-	["autodismount"] = true,
+	["RemoveBuffs"] = true,
 	["version"] = "5.2.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
-	["RemoveBuffs"] = true,
-	["PaladinUseCrusaderAura"] = false,
-	["DruidDisableInCombat"] = false,
+	["autodismount"] = true,
+	["ExtraPassengerMounts"] = {
+	},
+	["DisableWaterFlight"] = true,
 }
 GoGo_DebugLog = {
 }

@@ -5,13 +5,13 @@ BagnonFrameSettings = {
 			["y"] = 195.9999542236328,
 			["x"] = -5.999755859375,
 		},
-		["guildbank"] = {
-			["point"] = "TOPLEFT",
-			["x"] = 6.565175135619938e-005,
-		},
 		["voidstorage"] = {
 			["point"] = "TOPLEFT",
 			["y"] = -335.9998779296875,
+		},
+		["guildbank"] = {
+			["point"] = "TOPLEFT",
+			["x"] = 6.565175135619938e-005,
 		},
 		["bank"] = {
 			["point"] = "BOTTOMLEFT",

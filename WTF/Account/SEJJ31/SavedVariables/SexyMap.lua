@@ -22,47 +22,47 @@ SexyMap2DB = {
 			["visibilitySettings"] = {
 				["MinimapZoomOut"] = "never",
 				["MinimapZoneTextButton"] = "always",
-				["TimeManagerClockButton"] = "always",
-				["MiniMapMailFrame"] = "always",
-				["MinimapZoomIn"] = "never",
 				["MiniMapWorldMapButton"] = "never",
+				["MinimapZoomIn"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
 			["dragPositions"] = {
 				["VuhDoMinimapButton"] = 160.7692586083868,
 				["LibDBIcon10_PitBull4"] = 178.5497360835485,
 				["MiniMapTracking"] = 141.90032119059,
 				["LibDBIcon10_AtlasLoot"] = 198.0197776704242,
-				["LibDBIcon10_BugSack"] = 250.7694479599223,
 				["LibDBIcon10_Bartender4"] = 216.8699543258912,
+				["LibDBIcon10_BugSack"] = 250.7694479599223,
 			},
 			["controlVisibility"] = true,
 		},
 		["hudmap"] = {
 			["scale"] = 1.4,
-			["textColor"] = {
-				["a"] = 1,
-				["b"] = 0.5,
-				["g"] = 1,
-				["r"] = 0.5,
+			["hudColor"] = {
 			},
 			["alpha"] = 0.7,
-			["hudColor"] = {
+			["textColor"] = {
+				["a"] = 1,
+				["r"] = 0.5,
+				["g"] = 1,
+				["b"] = 0.5,
 			},
 		},
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -70,18 +70,18 @@ SexyMap2DB = {
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "Vixar",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["fontsize"] = 15,
@@ -94,9 +94,9 @@ SexyMap2DB = {
 			["backdrop"] = {
 				["show"] = true,
 				["textureColor"] = {
-					["r"] = 1,
-					["g"] = 0.9215686274509803,
 					["b"] = 0.6627450980392157,
+					["g"] = 0.9215686274509803,
+					["r"] = 1,
 				},
 				["settings"] = {
 					["edgeSize"] = 28,
@@ -118,19 +118,19 @@ SexyMap2DB = {
 			},
 			["hideBlizzard"] = true,
 		},
-		["core"] = {
-			["clamp"] = true,
-			["lock"] = true,
-			["northTag"] = true,
-			["shape"] = "SPELLS\\T_VFX_BORDER",
-			["autoZoom"] = 5,
-			["rightClickToConfig"] = true,
-		},
 		["movers"] = {
 			["enabled"] = false,
 			["framePositions"] = {
 			},
 			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = true,
+			["rightClickToConfig"] = true,
+			["autoZoom"] = 5,
+			["shape"] = "SPELLS\\T_VFX_BORDER",
+			["northTag"] = true,
 		},
 	},
 	["Bumbypwns-Greymane"] = {
@@ -155,47 +155,47 @@ SexyMap2DB = {
 			["visibilitySettings"] = {
 				["MinimapZoomIn"] = "never",
 				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
 				["TimeManagerClockButton"] = "always",
+				["MiniMapMailFrame"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapWorldMapButton"] = "never",
 			},
 			["dragPositions"] = {
 				["VuhDoMinimapButton"] = 160.7692586083868,
 				["LibDBIcon10_PitBull4"] = 178.5497360835485,
 				["MiniMapTracking"] = 141.90032119059,
 				["LibDBIcon10_AtlasLoot"] = 198.0197776704242,
-				["LibDBIcon10_Bartender4"] = 216.8699543258912,
 				["LibDBIcon10_BugSack"] = 250.7694479599223,
+				["LibDBIcon10_Bartender4"] = 216.8699543258912,
 			},
 			["controlVisibility"] = true,
 		},
 		["hudmap"] = {
 			["scale"] = 1.4,
-			["hudColor"] = {
-			},
-			["alpha"] = 0.7,
 			["textColor"] = {
 				["a"] = 1,
-				["r"] = 0.5,
-				["g"] = 1,
 				["b"] = 0.5,
+				["g"] = 1,
+				["r"] = 0.5,
+			},
+			["alpha"] = 0.7,
+			["hudColor"] = {
 			},
 		},
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -203,18 +203,18 @@ SexyMap2DB = {
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["font"] = "Vixar",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["xOffset"] = 0,
 			["fontsize"] = 15,
@@ -227,9 +227,9 @@ SexyMap2DB = {
 			["backdrop"] = {
 				["show"] = true,
 				["textureColor"] = {
-					["b"] = 0.6627450980392157,
-					["g"] = 0.9215686274509803,
 					["r"] = 1,
+					["g"] = 0.9215686274509803,
+					["b"] = 0.6627450980392157,
 				},
 				["settings"] = {
 					["edgeSize"] = 28,
@@ -251,19 +251,19 @@ SexyMap2DB = {
 			},
 			["hideBlizzard"] = true,
 		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = true,
+			["northTag"] = true,
+			["shape"] = "SPELLS\\T_VFX_BORDER",
+			["autoZoom"] = 5,
+			["rightClickToConfig"] = true,
+		},
 		["movers"] = {
 			["enabled"] = false,
 			["framePositions"] = {
 			},
 			["lock"] = false,
-		},
-		["core"] = {
-			["clamp"] = true,
-			["lock"] = true,
-			["rightClickToConfig"] = true,
-			["autoZoom"] = 5,
-			["shape"] = "SPELLS\\T_VFX_BORDER",
-			["northTag"] = true,
 		},
 	},
 	["presets"] = {
@@ -290,47 +290,47 @@ SexyMap2DB = {
 			["visibilitySettings"] = {
 				["MinimapZoomOut"] = "never",
 				["MinimapZoneTextButton"] = "always",
-				["TimeManagerClockButton"] = "always",
-				["MiniMapMailFrame"] = "always",
-				["MinimapZoomIn"] = "never",
 				["MiniMapWorldMapButton"] = "never",
+				["MinimapZoomIn"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
 			["dragPositions"] = {
 				["VuhDoMinimapButton"] = 160.7692586083868,
 				["LibDBIcon10_PitBull4"] = 178.5497360835485,
 				["MiniMapTracking"] = 141.90032119059,
 				["LibDBIcon10_AtlasLoot"] = 198.0197776704242,
-				["LibDBIcon10_BugSack"] = 250.7694479599223,
 				["LibDBIcon10_Bartender4"] = 216.8699543258912,
+				["LibDBIcon10_BugSack"] = 250.7694479599223,
 			},
 			["controlVisibility"] = true,
 		},
 		["hudmap"] = {
 			["scale"] = 1.4,
-			["textColor"] = {
-				["a"] = 1,
-				["b"] = 0.5,
-				["g"] = 1,
-				["r"] = 0.5,
+			["hudColor"] = {
 			},
 			["alpha"] = 0.7,
-			["hudColor"] = {
+			["textColor"] = {
+				["a"] = 1,
+				["r"] = 0.5,
+				["g"] = 1,
+				["b"] = 0.5,
 			},
 		},
 		["zonetext"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["yOffset"] = 0,
@@ -338,18 +338,18 @@ SexyMap2DB = {
 		["clock"] = {
 			["bgColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["font"] = "Vixar",
 			["fontColor"] = {
 			},
 			["borderColor"] = {
 				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
 				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["xOffset"] = 0,
 			["fontsize"] = 15,
@@ -362,9 +362,9 @@ SexyMap2DB = {
 			["backdrop"] = {
 				["show"] = true,
 				["textureColor"] = {
-					["r"] = 1,
-					["g"] = 0.9215686274509803,
 					["b"] = 0.6627450980392157,
+					["g"] = 0.9215686274509803,
+					["r"] = 1,
 				},
 				["settings"] = {
 					["edgeSize"] = 28,
@@ -386,19 +386,19 @@ SexyMap2DB = {
 			},
 			["hideBlizzard"] = true,
 		},
-		["core"] = {
-			["clamp"] = true,
-			["lock"] = true,
-			["northTag"] = true,
-			["shape"] = "SPELLS\\T_VFX_BORDER",
-			["autoZoom"] = 5,
-			["rightClickToConfig"] = true,
-		},
 		["movers"] = {
 			["enabled"] = false,
 			["framePositions"] = {
 			},
 			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["lock"] = true,
+			["rightClickToConfig"] = true,
+			["autoZoom"] = 5,
+			["shape"] = "SPELLS\\T_VFX_BORDER",
+			["northTag"] = true,
 		},
 	},
 }

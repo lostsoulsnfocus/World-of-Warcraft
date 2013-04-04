@@ -2,8 +2,8 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Bumbysbaby - Terokkar"] = "Bumbysbaby - Terokkar",
-		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
 		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
+		["Bumbystank - Greymane"] = "Bumbystank - Greymane",
 	},
 	["profiles"] = {
 		["Bumbysbaby - Terokkar"] = {
@@ -33,6 +33,38 @@ RecountDB = {
 			["MainWindowWidth"] = 188.9998321533203,
 			["GraphWindowX"] = 0,
 		},
+		["Bumbypwns - Greymane"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -436.0001335144043,
+					["x"] = 846.0000610351563,
+					["w"] = 223.9998168945313,
+					["h"] = 201.9999694824219,
+				},
+			},
+			["MainWindowHeight"] = 201.9999694824219,
+			["SegmentBosses"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Mogu Island Progression Events",
+			["BarTexture"] = "Flat",
+			["Font"] = "X360",
+			["MainWindowMode"] = 2,
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 223.9998321533203,
+		},
 		["Bumbystank - Greymane"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -53,41 +85,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
-		},
-		["Bumbypwns - Greymane"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -436.0001335144043,
-					["x"] = 845.9999389648438,
-					["w"] = 223.9998168945313,
-					["h"] = 201.9999694824219,
-				},
-			},
-			["SegmentBosses"] = true,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Throne of Thunder",
-			["BarTexture"] = "Flat",
-			["CurDataSet"] = "OverallData",
-			["MainWindowMode"] = 2,
-			["Font"] = "X360",
-			["MainWindowWidth"] = 223.9998321533203,
-			["MainWindowHeight"] = 201.9999694824219,
+			["DetailWindowX"] = 0,
 		},
 	},
 }

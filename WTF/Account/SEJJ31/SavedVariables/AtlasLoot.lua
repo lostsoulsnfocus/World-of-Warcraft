@@ -1,6 +1,10 @@
 
 AtlasLootDB = {
 	["namespaces"] = {
+		["WishList"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
 		["DefaultFrame"] = {
 			["profiles"] = {
 				["Bumbypwns - Greymane"] = {
@@ -16,17 +20,13 @@ AtlasLootDB = {
 				},
 			},
 		},
-		["AtlasLootPanel"] = {
-		},
-		["WishList"] = {
-		},
 		["Filter"] = {
 		},
 	},
-	["showWarning"] = true,
 	["profileKeys"] = {
 		["Bumbypwns - Greymane"] = "Bumbypwns - Greymane",
 	},
+	["showWarning"] = true,
 	["profiles"] = {
 		["Bumbypwns - Greymane"] = {
 		},

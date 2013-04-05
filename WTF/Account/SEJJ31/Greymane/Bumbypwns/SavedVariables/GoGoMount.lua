@@ -55,7 +55,7 @@ GoGo_Prefs = {
 			},
 			["Excluded"] = {
 			},
-			["ZoneID"] = 928,
+			["ZoneID"] = -1,
 		},
 		["Hall of the Defamed"] = {
 			["Preferred"] = {

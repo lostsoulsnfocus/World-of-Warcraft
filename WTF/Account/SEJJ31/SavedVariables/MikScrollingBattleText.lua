@@ -57,13 +57,13 @@ MSBTProfiles_SavedVars = {
 				["MSBT_TRIGGER_TIDAL_WAVES"] = {
 					["disabled"] = true,
 				},
-				["MSBT_TRIGGER_LOW_MANA"] = {
+				["MSBT_TRIGGER_TASTE_FOR_BLOOD"] = {
 					["disabled"] = true,
 				},
 				["MSBT_TRIGGER_ECLIPSE_LUNAR"] = {
 					["disabled"] = true,
 				},
-				["MSBT_TRIGGER_TASTE_FOR_BLOOD"] = {
+				["MSBT_TRIGGER_LOW_MANA"] = {
 					["disabled"] = true,
 				},
 				["MSBT_TRIGGER_NIGHTFALL"] = {
@@ -402,7 +402,7 @@ MSBTProfiles_SavedVars = {
 				["PET_OUTGOING_DODGE"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_IMMUNE"] = {
+				["INCOMING_SPELL_DOT_CRIT"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_MISS"] = {
@@ -414,25 +414,25 @@ MSBTProfiles_SavedVars = {
 				["PET_INCOMING_SPELL_RESIST"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_DOT_CRIT"] = {
-					["disabled"] = true,
-				},
 				["OUTGOING_MISS"] = {
 					["disabled"] = true,
 				},
 				["PET_OUTGOING_ABSORB"] = {
 					["disabled"] = true,
 				},
-				["OUTGOING_SPELL_INTERRUPT"] = {
+				["NOTIFICATION_BUFF"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_SPELL_DEFLECT"] = {
+				["INCOMING_SPELL_IMMUNE"] = {
+					["disabled"] = true,
+				},
+				["PET_OUTGOING_SPELL_DOT_CRIT"] = {
 					["disabled"] = true,
 				},
 				["PET_INCOMING_DAMAGE"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_BUFF"] = {
+				["PET_OUTGOING_SPELL_DAMAGE_SHIELD"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_SPELL_BLOCK"] = {
@@ -444,25 +444,25 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_SHADOW_ORBS_CHANGE"] = {
 					["disabled"] = true,
 				},
-				["PET_OUTGOING_SPELL_DOT_CRIT"] = {
-					["disabled"] = true,
-				},
-				["PET_OUTGOING_SPELL_DAMAGE_SHIELD"] = {
-					["disabled"] = true,
-				},
-				["PET_OUTGOING_SPELL_DOT"] = {
-					["disabled"] = true,
-				},
 				["PET_OUTGOING_SPELL_DODGE"] = {
-					["disabled"] = true,
-				},
-				["INCOMING_SPELL_DOT"] = {
 					["disabled"] = true,
 				},
 				["INCOMING_MISS"] = {
 					["disabled"] = true,
 				},
+				["PET_OUTGOING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
 				["PET_INCOMING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_INTERRUPT"] = {
+					["disabled"] = true,
+				},
+				["INCOMING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
+				["INCOMING_SPELL_DEFLECT"] = {
 					["disabled"] = true,
 				},
 				["PET_OUTGOING_SPELL_BLOCK"] = {
@@ -537,21 +537,15 @@ MSBTProfiles_SavedVars = {
 			},
 			["normalOutlineIndex"] = 2,
 			["scrollAreas"] = {
-				["Incoming"] = {
-					["stickyTextAlignIndex"] = 1,
-					["behavior"] = "MSBT_NORMAL",
-					["stickyDirection"] = "Down",
-					["scrollWidth"] = 10,
-					["offsetX"] = -500,
-					["stickyBehavior"] = "MSBT_NORMAL",
-					["offsetY"] = -100,
-					["animationStyle"] = "Straight",
-					["stickyAnimationStyle"] = "Static",
-				},
 				["Notification"] = {
 					["offsetY"] = 276,
 					["disabled"] = true,
 					["offsetX"] = -180,
+				},
+				["Static"] = {
+					["offsetY"] = 366,
+					["disabled"] = true,
+					["offsetX"] = -21,
 				},
 				["Outgoing"] = {
 					["stickyTextAlignIndex"] = 3,
@@ -565,10 +559,16 @@ MSBTProfiles_SavedVars = {
 					["textAlignIndex"] = 3,
 					["stickyAnimationStyle"] = "Static",
 				},
-				["Static"] = {
-					["offsetY"] = 366,
-					["disabled"] = true,
-					["offsetX"] = -21,
+				["Incoming"] = {
+					["stickyTextAlignIndex"] = 1,
+					["behavior"] = "MSBT_NORMAL",
+					["stickyDirection"] = "Down",
+					["scrollWidth"] = 10,
+					["offsetX"] = -500,
+					["stickyBehavior"] = "MSBT_NORMAL",
+					["offsetY"] = -100,
+					["animationStyle"] = "Straight",
+					["stickyAnimationStyle"] = "Static",
 				},
 			},
 			["normalFontName"] = "Vixar",

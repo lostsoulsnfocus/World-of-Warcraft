@@ -37,9 +37,9 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -436.0001335144043,
-					["x"] = 846.0000610351563,
-					["w"] = 223.9998168945313,
+					["y"] = -438.0001754760742,
+					["x"] = 844,
+					["w"] = 223.9998321533203,
 					["h"] = 201.9999694824219,
 				},
 			},
@@ -58,11 +58,11 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Mogu Island Progression Events",
+			["LastInstanceName"] = "Throne of Thunder",
 			["BarTexture"] = "Flat",
-			["Font"] = "X360",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowMode"] = 2,
-			["CurDataSet"] = "OverallData",
+			["Font"] = "X360",
 			["MainWindowWidth"] = 223.9998321533203,
 		},
 		["Bumbystank - Greymane"] = {

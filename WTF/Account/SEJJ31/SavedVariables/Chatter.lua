@@ -113,9 +113,9 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
-						["Say"] = {
-							["b"] = 1,
-							["g"] = 1,
+						["Trade"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
 							["r"] = 1,
 						},
 						["Instance Leader"] = {
@@ -123,9 +123,9 @@ ChatterDB = {
 							["g"] = 0.2823529541492462,
 							["r"] = 1,
 						},
-						["Trade"] = {
-							["b"] = 0.7529412508010864,
-							["g"] = 0.7529412508010864,
+						["Say"] = {
+							["b"] = 1,
+							["g"] = 1,
 							["r"] = 1,
 						},
 						["enox"] = {
@@ -172,38 +172,38 @@ ChatterDB = {
 			["realm"] = {
 				["Greymane"] = {
 					["history"] = {
-						"/msbt", -- [1]
-						"/coolline", -- [2]
-						"/coolline", -- [3]
-						"/roll", -- [4]
-						"/g good day all", -- [5]
-						"/MSBT", -- [6]
-						"/TT", -- [7]
-						"/DBM", -- [8]
+						"/MSBT", -- [1]
+						"/MSBT", -- [2]
+						"/TT", -- [3]
+						"/MSBT", -- [4]
+						"/TT", -- [5]
+						"/DBM", -- [6]
+						"/cw Temeryx YEAH I DROP IT ALWAYS 40 YRD RANGE", -- [7]
+						"/MSBT", -- [8]
 						"/MSBT", -- [9]
-						"/MSBT", -- [10]
-						"/TT", -- [11]
-						"/MSBT", -- [12]
-						"/TT", -- [13]
-						"/DBM", -- [14]
-						"/cw Temeryx YEAH I DROP IT ALWAYS 40 YRD RANGE", -- [15]
-						"/MSBT", -- [16]
-						"/MSBT", -- [17]
-						"/DBM", -- [18]
-						"/s YEP", -- [19]
-						"/s like the apple store except less douches", -- [20]
-						"/s ;lol", -- [21]
-						"/g hey tig", -- [22]
-						"/msbt", -- [23]
-						"/g hey tem", -- [24]
-						"/g chilling just messing with my ui a bit more ", -- [25]
-						"/msbt", -- [26]
-						"/gogo", -- [27]
-						"/gogo options", -- [28]
-						"/g evening all", -- [29]
-						"/g what the hell is with the new senario", -- [30]
-						"/g damn thing was glitched", -- [31]
-						"/g extra action bar wasnt coming up for the quest", -- [32]
+						"/DBM", -- [10]
+						"/s YEP", -- [11]
+						"/s like the apple store except less douches", -- [12]
+						"/s ;lol", -- [13]
+						"/g hey tig", -- [14]
+						"/msbt", -- [15]
+						"/g hey tem", -- [16]
+						"/g chilling just messing with my ui a bit more ", -- [17]
+						"/msbt", -- [18]
+						"/gogo", -- [19]
+						"/gogo options", -- [20]
+						"/g evening all", -- [21]
+						"/g what the hell is with the new senario", -- [22]
+						"/g damn thing was glitched", -- [23]
+						"/g extra action bar wasnt coming up for the quest", -- [24]
+						"/wave", -- [25]
+						"/g hey every1", -- [26]
+						"/roll", -- [27]
+						"/cw Temeryx nah", -- [28]
+						"/cw Temeryx lol yeah just tryiong to get the hang of it again  so later when its geared can switch for those ranged benefit fights", -- [29]
+						"/roll", -- [30]
+						"/roll", -- [31]
+						"/roll", -- [32]
 					},
 				},
 				["Terokkar"] = {

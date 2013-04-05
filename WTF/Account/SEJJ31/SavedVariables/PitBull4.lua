@@ -304,7 +304,16 @@ PitBull4DB = {
 				},
 			},
 		},
-		["RestIcon"] = {
+		["ReputationBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["layouts"] = {
+						["Normal"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
 		},
 		["Background"] = {
 			["profiles"] = {
@@ -325,16 +334,7 @@ PitBull4DB = {
 		},
 		["HideBlizzard"] = {
 		},
-		["ReputationBar"] = {
-			["profiles"] = {
-				["Default"] = {
-					["layouts"] = {
-						["Normal"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-			},
+		["RestIcon"] = {
 		},
 		["Sounds"] = {
 		},
@@ -536,11 +536,11 @@ PitBull4DB = {
 					["size_x"] = 0.8500000238418579,
 				},
 				["target"] = {
-					["horizontal_mirror"] = true,
+					["size_x"] = 1.049999952316284,
 					["size_y"] = 1.049999952316284,
 					["position_y"] = -340.3040008544922,
+					["horizontal_mirror"] = true,
 					["position_x"] = 276.5423583984375,
-					["size_x"] = 1.049999952316284,
 				},
 				["pettarget"] = {
 					["enabled"] = false,
